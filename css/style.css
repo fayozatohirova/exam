@@ -1,0 +1,1209 @@
+@import url("https://fonts.googleapis.com/css2?family=Alata&family=DM+Sans:opsz,wght@9..40,400;9..40,700&family=Josefin+Sans:wght@300&family=League+Spartan:wght@500;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+}
+body .container {
+  display: flex;
+  flex-direction: column;
+  max-width: 1440px;
+}
+body .container header {
+  padding: 28px 165px 28px 165px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1440px;
+  height: 72px;
+  background-color: #fff;
+}
+body .container header nav ul {
+  display: flex;
+  list-style-type: none;
+  gap: 37px;
+}
+body .container header nav ul a {
+  text-decoration: none;
+  color: #000;
+  font-family: DM Sans;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 2px;
+}
+body .container header nav ul a:hover {
+  opacity: 0.3;
+}
+body .container header button {
+  width: 158px;
+  height: 40px;
+  background: #000;
+  border: none;
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+body .container header button:hover {
+  background: #DFDFDF;
+  color: #000;
+}
+body .container main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 1440px;
+  padding-bottom: 119px;
+}
+body .container main .create {
+  display: flex;
+  justify-content: flex-end;
+  max-width: 1440px;
+}
+body .container main .create .content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 610px;
+  height: 650px;
+  background: #000;
+}
+body .container main .create .content h1 {
+  width: 387px;
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 4.167px;
+  text-transform: uppercase;
+}
+body .container main .create .content h2 {
+  width: 387px;
+  padding-top: 21px;
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+  opacity: 0.6;
+}
+body .container main .create .content .invite {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  padding-top: 48px;
+  margin-right: 215px;
+}
+body .container main .create .content .invite a {
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-decoration: none;
+}
+body .container main .create .content .invite a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+body .container main .stories {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+  max-width: 1440px;
+}
+body .container main .stories .child {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 610px;
+  height: 650px;
+  background: #fff;
+}
+body .container main .stories .child h1 {
+  width: 387px;
+  color: #000;
+  font-family: DM Sans;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 4.167px;
+  text-transform: uppercase;
+}
+body .container main .stories .child h2 {
+  width: 387px;
+  padding-top: 21px;
+  color: #000;
+  font-family: DM Sans;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+  opacity: 0.6;
+}
+body .container main .stories .child .invite {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  padding-top: 48px;
+  margin-right: 215px;
+}
+body .container main .stories .child .invite a {
+  color: #000;
+  font-family: DM Sans;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-decoration: none;
+}
+body .container main .stories .child .invite a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+body .container main .designed {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  max-width: 1440px;
+}
+body .container main .designed .content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 610px;
+  height: 650px;
+  background: #fff;
+}
+body .container main .designed .content h1 {
+  width: 387px;
+  color: #000;
+  font-family: DM Sans;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 4.167px;
+  text-transform: uppercase;
+}
+body .container main .designed .content p {
+  width: 387px;
+  padding-top: 21px;
+  color: #000;
+  font-family: DM Sans;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+  opacity: 0.6;
+}
+body .container main .designed .content .invite {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  padding-top: 48px;
+  margin-right: 180px;
+}
+body .container main .designed .content .invite a {
+  color: #000;
+  font-family: DM Sans;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-decoration: none;
+}
+body .container main .designed .content .invite a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+body .container main .pictures {
+  display: flex;
+  max-width: 1440px;
+}
+body .container main .pictures .mountain {
+  width: 360px;
+  height: 500px;
+  background-image: url(../img/mountain.png);
+}
+body .container main .pictures .mountain .text h4 {
+  padding: 361px 40px 0px 40px;
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 25px;
+}
+body .container main .pictures .mountain .text h5 {
+  padding: 4px 40px 16px 40px;
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+body .container main .pictures .mountain .text .line {
+  width: 280px;
+  height: 1px;
+  background-color: #fff;
+  margin: 0px 40px;
+}
+body .container main .pictures .mountain .text .story {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 280px;
+  height: 16px;
+  margin: 20px 40px 40px 40px;
+}
+body .container main .pictures .mountain .text .story p {
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+body .container main .pictures .mountain:hover {
+  transform: translateY(-25px);
+  transition: 1s;
+}
+body .container main .pictures .city {
+  width: 360px;
+  height: 500px;
+  background-image: url(../img/city.png);
+}
+body .container main .pictures .city .text h4 {
+  padding: 361px 40px 0px 40px;
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 25px;
+}
+body .container main .pictures .city .text h5 {
+  padding: 4px 40px 16px 40px;
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+body .container main .pictures .city .text .line {
+  width: 280px;
+  height: 1px;
+  background-color: #fff;
+  margin: 0px 40px;
+}
+body .container main .pictures .city .text .story {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 280px;
+  height: 16px;
+  margin: 20px 40px 40px 40px;
+}
+body .container main .pictures .city .text .story p {
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+body .container main .pictures .city:hover {
+  transform: translateY(-25px);
+  transition: 1s;
+}
+body .container main .pictures .travel {
+  width: 360px;
+  height: 500px;
+  background-image: url(../img/travel.png);
+}
+body .container main .pictures .travel .text h4 {
+  padding: 361px 40px 0px 40px;
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 25px;
+}
+body .container main .pictures .travel .text h5 {
+  padding: 4px 40px 16px 40px;
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+body .container main .pictures .travel .text .line {
+  width: 280px;
+  height: 1px;
+  background-color: #fff;
+  margin: 0px 40px;
+}
+body .container main .pictures .travel .text .story {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 280px;
+  height: 16px;
+  margin: 20px 40px 40px 40px;
+}
+body .container main .pictures .travel .text .story p {
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+body .container main .pictures .travel:hover {
+  transform: translateY(-25px);
+  transition: 1s;
+}
+body .container main .pictures .arcitect {
+  width: 360px;
+  height: 500px;
+  background-image: url(../img/tower.png);
+}
+body .container main .pictures .arcitect .text h4 {
+  padding: 361px 40px 0px 40px;
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 25px;
+}
+body .container main .pictures .arcitect .text h5 {
+  padding: 4px 40px 16px 40px;
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+body .container main .pictures .arcitect .text .line {
+  width: 280px;
+  height: 1px;
+  background-color: #fff;
+  margin: 0px 40px;
+}
+body .container main .pictures .arcitect .text .story {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 280px;
+  height: 16px;
+  margin: 20px 40px 40px 40px;
+}
+body .container main .pictures .arcitect .text .story p {
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+body .container main .pictures .arcitect:hover {
+  transform: translateY(-25px);
+  transition: 1s;
+}
+body .container main .triple {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1110px;
+  gap: 30px;
+  background-color: #ffffff;
+  padding: 120px;
+}
+body .container main .triple .responsive {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+body .container main .triple .responsive h4 {
+  padding: 48px 0px 16px 0px;
+  color: #000;
+  text-align: center;
+  font-family: DM Sans;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 25px;
+}
+body .container main .triple .responsive h5 {
+  width: 350px;
+  opacity: 0.6;
+  color: #000;
+  text-align: center;
+  font-family: DM Sans;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+}
+body .container main .triple .limit {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+body .container main .triple .limit h4 {
+  padding: 76px 0px 16px 0px;
+  color: #000;
+  text-align: center;
+  font-family: DM Sans;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 25px;
+}
+body .container main .triple .limit h5 {
+  width: 350px;
+  opacity: 0.6;
+  color: #000;
+  text-align: center;
+  font-family: DM Sans;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+}
+body .container main .triple .embed {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+body .container main .triple .embed h4 {
+  padding: 48px 0px 16px 0px;
+  color: #000;
+  text-align: center;
+  font-family: DM Sans;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 25px;
+}
+body .container main .triple .embed h5 {
+  width: 350px;
+  opacity: 0.6;
+  color: #000;
+  text-align: center;
+  font-family: DM Sans;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+}
+body .container footer {
+  max-width: 1440px;
+  height: 250px;
+  background-color: #000;
+}
+body .container footer .footer {
+  display: flex;
+  max-width: 1440px;
+  height: 122px;
+  background-color: #000;
+  padding: 64px 165px 64px 171px;
+}
+body .container footer .footer .icons {
+  display: flex;
+  flex-direction: column;
+}
+body .container footer .footer .icons img {
+  width: 170px;
+}
+body .container footer .footer .icons .symbols {
+  display: flex;
+  gap: 15px;
+  width: 154px;
+  height: 20px;
+  margin-top: 85px;
+}
+body .container footer .footer .icons .symbols {
+  display: flex;
+  gap: 15px;
+  width: 154px;
+  height: 20px;
+  margin-top: 85px;
+}
+body .container footer .footer .icons .symbols svg {
+  cursor: pointer;
+}
+body .container footer .footer .icons .symbols .facebook:hover path {
+  fill: #6028F1;
+}
+body .container footer .footer .icons .symbols .youtube:hover path {
+  fill: red;
+}
+body .container footer .footer .icons .symbols .twitter:hover path {
+  fill: #63AFDB;
+}
+body .container footer .footer .icons .symbols .prin:hover path {
+  fill: #e29654;
+}
+body .container footer .footer .icons .symbols .insta:hover path {
+  fill: linear-gradient(#FFC593, #BC7198, #5A77FF);
+}
+body .container footer .footer .menu ul {
+  display: flex;
+  flex-direction: column;
+  gap: 19px;
+  padding-left: 119px;
+}
+body .container footer .footer .menu ul li {
+  list-style: none;
+}
+body .container footer .footer .menu ul li a {
+  text-decoration: none;
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+body .container footer .footer .menu ul li a:hover {
+  opacity: 0.3;
+}
+body .container footer .footer .end {
+  display: flex;
+  flex-direction: column;
+}
+body .container footer .footer .end .invite {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  padding-top: 48px;
+  margin-right: 215px;
+}
+body .container footer .footer .end .invite a {
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-decoration: none;
+}
+body .container footer .footer .end .invite a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+body .container footer .footer .end p {
+  padding-top: 109px;
+  color: #FFF;
+  text-align: right;
+  font-family: DM Sans;
+  font-size: 15px;
+  font-weight: 400;
+  opacity: 0.5025;
+}
+
+@media (max-width: 700px) {
+  body {
+    display: flex;
+    justify-content: center;
+  }
+  body .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1440px;
+  }
+  body .container header {
+    padding: 28px 165px 28px 165px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 800px;
+    gap: 100px;
+    background-color: #fff;
+  }
+  body .container header nav {
+    display: none;
+  }
+  body .container header button {
+    width: 158px;
+    height: 40px;
+    background: #000;
+    border: none;
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 2px;
+  }
+  body .container header button:hover {
+    background: #DFDFDF;
+    color: #000;
+  }
+  body .container main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 1440px;
+    padding-bottom: 119px;
+  }
+  body .container main .create {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 1440px;
+  }
+  body .container main .create .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 610px;
+    height: 650px;
+    background: #000;
+  }
+  body .container main .create .content h1 {
+    width: 387px;
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 4.167px;
+    text-transform: uppercase;
+  }
+  body .container main .create .content h2 {
+    width: 387px;
+    padding-top: 21px;
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    opacity: 0.6;
+  }
+  body .container main .create .content .invite {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    padding-top: 48px;
+    margin-right: 215px;
+  }
+  body .container main .create .content .invite a {
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-decoration: none;
+  }
+  body .container main .create .content .invite a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  body .container main .create img {
+    overflow: hidden;
+    max-width: 610px;
+  }
+  body .container main .stories {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 1440px;
+  }
+  body .container main .stories .child {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 610px;
+    height: 650px;
+    background: #fff;
+  }
+  body .container main .stories .child h1 {
+    width: 387px;
+    color: #000;
+    font-family: DM Sans;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 4.167px;
+    text-transform: uppercase;
+  }
+  body .container main .stories .child h2 {
+    width: 387px;
+    padding-top: 21px;
+    color: #000;
+    font-family: DM Sans;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    opacity: 0.6;
+  }
+  body .container main .stories .child .invite {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    padding-top: 48px;
+    margin-right: 215px;
+  }
+  body .container main .stories .child .invite a {
+    color: #000;
+    font-family: DM Sans;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-decoration: none;
+  }
+  body .container main .stories .child .invite a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  body .container main .stories img {
+    max-width: 610px;
+    overflow: hidden;
+  }
+  body .container main .designed {
+    display: flex;
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: center;
+    max-width: 1440px;
+  }
+  body .container main .designed .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 610px;
+    height: 650px;
+    background: #fff;
+  }
+  body .container main .designed .content h1 {
+    width: 387px;
+    color: #000;
+    font-family: DM Sans;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 4.167px;
+    text-transform: uppercase;
+  }
+  body .container main .designed .content p {
+    width: 387px;
+    padding-top: 21px;
+    color: #000;
+    font-family: DM Sans;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    opacity: 0.6;
+  }
+  body .container main .designed .content .invite {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    padding-top: 48px;
+    margin-right: 180px;
+  }
+  body .container main .designed .content .invite a {
+    color: #000;
+    font-family: DM Sans;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-decoration: none;
+  }
+  body .container main .designed .content .invite a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  body .container main .designed img {
+    max-width: 610px;
+    overflow: hidden;
+  }
+  body .container main .pictures {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    max-width: 1440px;
+  }
+  body .container main .pictures .mountain {
+    width: 360px;
+    height: 500px;
+    background-image: url(../img/mountain.png);
+  }
+  body .container main .pictures .mountain .text h4 {
+    padding: 361px 40px 0px 40px;
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 25px;
+  }
+  body .container main .pictures .mountain .text h5 {
+    padding: 4px 40px 16px 40px;
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  body .container main .pictures .mountain .text .line {
+    width: 280px;
+    height: 1px;
+    background-color: #fff;
+    margin: 0px 40px;
+  }
+  body .container main .pictures .mountain .text .story {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 280px;
+    height: 16px;
+    margin: 20px 40px 40px 40px;
+  }
+  body .container main .pictures .mountain .text .story p {
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 2px;
+  }
+  body .container main .pictures .mountain:hover {
+    transform: translateY(-25px);
+    transition: 1s;
+  }
+  body .container main .pictures .city {
+    width: 360px;
+    height: 500px;
+    background-image: url(../img/city.png);
+  }
+  body .container main .pictures .city .text h4 {
+    padding: 361px 40px 0px 40px;
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 25px;
+  }
+  body .container main .pictures .city .text h5 {
+    padding: 4px 40px 16px 40px;
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  body .container main .pictures .city .text .line {
+    width: 280px;
+    height: 1px;
+    background-color: #fff;
+    margin: 0px 40px;
+  }
+  body .container main .pictures .city .text .story {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 280px;
+    height: 16px;
+    margin: 20px 40px 40px 40px;
+  }
+  body .container main .pictures .city .text .story p {
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 2px;
+  }
+  body .container main .pictures .city:hover {
+    transform: translateY(-25px);
+    transition: 1s;
+  }
+  body .container main .pictures .travel {
+    width: 360px;
+    height: 500px;
+    background-image: url(../img/travel.png);
+  }
+  body .container main .pictures .travel .text h4 {
+    padding: 361px 40px 0px 40px;
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 25px;
+  }
+  body .container main .pictures .travel .text h5 {
+    padding: 4px 40px 16px 40px;
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  body .container main .pictures .travel .text .line {
+    width: 280px;
+    height: 1px;
+    background-color: #fff;
+    margin: 0px 40px;
+  }
+  body .container main .pictures .travel .text .story {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 280px;
+    height: 16px;
+    margin: 20px 40px 40px 40px;
+  }
+  body .container main .pictures .travel .text .story p {
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 2px;
+  }
+  body .container main .pictures .travel:hover {
+    transform: translateY(-25px);
+    transition: 1s;
+  }
+  body .container main .pictures .arcitect {
+    width: 360px;
+    height: 500px;
+    background-image: url(../img/tower.png);
+  }
+  body .container main .pictures .arcitect .text h4 {
+    padding: 361px 40px 0px 40px;
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 25px;
+  }
+  body .container main .pictures .arcitect .text h5 {
+    padding: 4px 40px 16px 40px;
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  body .container main .pictures .arcitect .text .line {
+    width: 280px;
+    height: 1px;
+    background-color: #fff;
+    margin: 0px 40px;
+  }
+  body .container main .pictures .arcitect .text .story {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 280px;
+    height: 16px;
+    margin: 20px 40px 40px 40px;
+  }
+  body .container main .pictures .arcitect .text .story p {
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 2px;
+  }
+  body .container main .pictures .arcitect:hover {
+    transform: translateY(-25px);
+    transition: 1s;
+  }
+  body .container main .triple {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 1110px;
+    gap: 30px;
+    background-color: #ffffff;
+  }
+  body .container main .triple .responsive {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  body .container main .triple .responsive h4 {
+    padding: 48px 0px 16px 0px;
+    color: #000;
+    text-align: center;
+    font-family: DM Sans;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 25px;
+  }
+  body .container main .triple .responsive h5 {
+    width: 350px;
+    opacity: 0.6;
+    color: #000;
+    text-align: center;
+    font-family: DM Sans;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+  }
+  body .container main .triple .limit {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  body .container main .triple .limit h4 {
+    padding: 76px 0px 16px 0px;
+    color: #000;
+    text-align: center;
+    font-family: DM Sans;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 25px;
+  }
+  body .container main .triple .limit h5 {
+    width: 350px;
+    opacity: 0.6;
+    color: #000;
+    text-align: center;
+    font-family: DM Sans;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+  }
+  body .container main .triple .embed {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  body .container main .triple .embed h4 {
+    padding: 48px 0px 16px 0px;
+    color: #000;
+    text-align: center;
+    font-family: DM Sans;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 25px;
+  }
+  body .container main .triple .embed h5 {
+    width: 350px;
+    opacity: 0.6;
+    color: #000;
+    text-align: center;
+    font-family: DM Sans;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+  }
+  body .container footer {
+    max-width: 700px;
+    background-color: #000;
+  }
+  body .container footer .footer {
+    display: flex;
+    max-width: 700px;
+    height: 122px;
+    background-color: #000;
+    padding: 64px 165px 64px 171px;
+  }
+  body .container footer .footer .icons {
+    display: flex;
+    flex-direction: column;
+  }
+  body .container footer .footer .icons img {
+    width: 170px;
+  }
+  body .container footer .footer .icons .symbols {
+    display: flex;
+    gap: 15px;
+    width: 154px;
+    height: 20px;
+    margin-top: 85px;
+  }
+  body .container footer .footer .icons .symbols .facebook:hover {
+    fill: #6028F1;
+  }
+  body .container footer .footer .menu ul {
+    display: flex;
+    flex-direction: column;
+    gap: 19px;
+    padding-left: 119px;
+  }
+  body .container footer .footer .menu ul li {
+    list-style: none;
+  }
+  body .container footer .footer .menu ul li a {
+    text-decoration: none;
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+  body .container footer .footer .menu ul li a:hover {
+    opacity: 0.3;
+  }
+  body .container footer .footer .end {
+    display: flex;
+    flex-direction: column;
+  }
+  body .container footer .footer .end .invite {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    padding-top: 48px;
+    margin-right: 215px;
+  }
+  body .container footer .footer .end .invite a {
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-decoration: none;
+  }
+  body .container footer .footer .end .invite a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  body .container footer .footer .end p {
+    padding-top: 109px;
+    color: #FFF;
+    text-align: right;
+    font-family: DM Sans;
+    font-size: 15px;
+    font-weight: 400;
+    opacity: 0.5025;
+  }
+}/*# sourceMappingURL=style.css.map */

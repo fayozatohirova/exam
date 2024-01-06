@@ -1,0 +1,2113 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=DM+Sans:opsz,wght@9..40,400;9..40,700&family=Josefin+Sans:wght@300&family=League+Spartan:wght@500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        // align-items: center;
+        max-width: 1440px;
+        header{
+            padding: 28px 165px 28px 165px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 1440px;
+            height: 72px;
+            background-color: #fff;
+            nav{
+                // margin-left: 251px;
+                ul{
+                    display: flex;
+                    list-style-type: none;
+                    gap: 37px;
+                    a{
+                        text-decoration: none;
+                        color: #000;
+                        font-family: DM Sans;
+                        font-size: 12px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: normal;
+                        letter-spacing: 2px;
+                    }
+                    a:hover{
+                        opacity: 0.3;
+                    }
+                }
+            }
+            button{
+                width: 158px;
+                height: 40px;
+                background: #000;
+                border: none;
+                color: #FFF;
+                font-family: DM Sans;
+                font-size: 12px;
+                font-weight: 700;
+                letter-spacing: 2px;
+            }
+            button:hover{
+                background: #DFDFDF;
+                color: #000;
+            }
+        }
+        main{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            // max-width: 1440px;
+            // height: 1440px;
+            .create{
+                display: flex;
+                align-items: center;
+                justify-content: flex-start;
+                width: 100%;
+                padding-top: 122px;
+                // height: 610px;
+                background-image: url("/img/stories/moon.png");
+                background-repeat: no-repeat;
+                .moon-mobile{
+                    display: none;
+                }
+                .text{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 20px;
+                    padding-left: 112px;
+                    h1{
+                        color: #FFF;
+                        font-family: DM Sans;
+                        font-size: 12px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: normal;
+                        letter-spacing: 2px;
+                    }
+                    h2{
+                        width: 287px;
+                        color: #FFF;
+                        font-family: DM Sans;
+                        font-size: 40px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: 48px;
+                        letter-spacing: 4.167px;
+                        text-transform: uppercase;
+                    }
+                    h3{
+                        opacity: 0.6;
+                        width: 387px;
+                        color: #FFF;
+                        font-family: DM Sans;
+                        font-size: 13px;
+                        font-weight: 400;
+                        gap: 9px;
+                        span{
+                            color: #FFF;
+                            font-family: DM Sans;
+                            font-size: 13px;
+                            font-weight: 400;
+                        }
+                    }
+                    .read{
+                        display: flex;
+                        padding-left: 2px;
+                        justify-content: center;
+                        align-items: center;
+                        gap: 16px;
+                        margin-left: -200px;
+                        a{
+                            opacity: 1;
+                            text-decoration: none;
+                            color: #FFF;
+                            text-align: right;
+                            font-family: DM Sans;
+                            font-size: 12px;
+                            font-weight: 700;
+                            letter-spacing: 2px;
+                        }
+                        a:hover{
+                            text-decoration: underline;
+                        }
+                    }
+                }
+            }
+            .pictures{
+                display: flex;
+                max-width: 1440px;
+                .mountain{
+                    width: 360px;
+                    height: 500px;
+                    background-image: url(../img/mountain.png);
+                    .text{
+                            h4{
+                                padding: 361px 40px 0px 40px;
+                                color: #FFF;
+                                font-family: DM Sans;
+                                font-size: 18px;
+                                font-weight: 700;
+                                line-height: 25px;
+                            }
+                            h5{
+                                padding: 4px 40px 16px 40px;
+                                color: #FFF;
+                                font-family: DM Sans;
+                                font-size: 13px;
+                                font-style: normal;
+                                font-weight: 400;
+                                line-height: normal;
+                            }
+                            .line{
+                                width: 280px;
+                                height: 1px;
+                                background-color: #fff;
+                                margin: 0px 40px;
+                            }
+                            .story{
+                                display: flex;
+                                align-items: center;
+                                justify-content: space-between;
+                                width: 280px;
+                                height: 16px;
+                                margin: 20px 40px 40px 40px;
+                                p{
+                                    color: #FFF;
+                                    font-family: DM Sans;
+                                    font-size: 12px;
+                                    font-weight: 700;
+                                    letter-spacing: 2px;
+                                }
+                            }
+                    }
+                }
+                .mountain:hover{
+                    transform: translateY(-25px);
+                    transition: 1s;
+                }
+                .city{
+                    width: 360px;
+                    height: 500px;
+                    background-image: url(../img/city.png);
+                    .text{
+                        h4{
+                            padding: 361px 40px 0px 40px;
+                            color: #FFF;
+                            font-family: DM Sans;
+                            font-size: 18px;
+                            font-weight: 700;
+                            line-height: 25px;
+                        }
+                        h5{
+                            padding: 4px 40px 16px 40px;
+                            color: #FFF;
+                            font-family: DM Sans;
+                            font-size: 13px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: normal;
+                        }
+                        .line{
+                            width: 280px;
+                            height: 1px;
+                            background-color: #fff;
+                            margin: 0px 40px;
+                        }
+                        .story{
+                            display: flex;
+                            align-items: center;
+                            justify-content: space-between;
+                            width: 280px;
+                            height: 16px;
+                            margin: 20px 40px 40px 40px;
+                            p{
+                                color: #FFF;
+                                font-family: DM Sans;
+                                font-size: 12px;
+                                font-weight: 700;
+                                letter-spacing: 2px;
+                            }
+                        }
+                    }
+                }
+                .city:hover{
+                    transform: translateY(-25px);
+                    transition: 1s;
+                }
+                .travel{
+                    width: 360px;
+                    height: 500px;
+                    background-image: url(../img/travel.png);
+                    .text{
+                        h4{
+                            padding: 361px 40px 0px 40px;
+                            color: #FFF;
+                            font-family: DM Sans;
+                            font-size: 18px;
+                            font-weight: 700;
+                            line-height: 25px;
+                        }
+                        h5{
+                            padding: 4px 40px 16px 40px;
+                            color: #FFF;
+                            font-family: DM Sans;
+                            font-size: 13px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: normal;
+                        }
+                        .line{
+                            width: 280px;
+                            height: 1px;
+                            background-color: #fff;
+                            margin: 0px 40px;
+                        }
+                        .story{
+                            display: flex;
+                            align-items: center;
+                            justify-content: space-between;
+                            width: 280px;
+                            height: 16px;
+                            margin: 20px 40px 40px 40px;
+                            p{
+                                color: #FFF;
+                                font-family: DM Sans;
+                                font-size: 12px;
+                                font-weight: 700;
+                                letter-spacing: 2px;
+                            }
+                        }
+                    }
+                }
+                .travel:hover{
+                    transform: translateY(-25px);
+                    transition: 1s;
+                }
+                .arcitect{
+                    width: 360px;
+                    height: 500px;
+                    background-image: url(../img/tower.png);
+                    .text{
+                        h4{
+                            padding: 361px 40px 0px 40px;
+                            color: #FFF;
+                            font-family: DM Sans;
+                            font-size: 18px;
+                            font-weight: 700;
+                            line-height: 25px;
+                        }
+                        h5{
+                            padding: 4px 40px 16px 40px;
+                            color: #FFF;
+                            font-family: DM Sans;
+                            font-size: 13px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: normal;
+                        }
+                        .line{
+                            width: 280px;
+                            height: 1px;
+                            background-color: #fff;
+                            margin: 0px 40px;
+                        }
+                        .story{
+                            display: flex;
+                            align-items: center;
+                            justify-content: space-between;
+                            width: 280px;
+                            height: 16px;
+                            margin: 20px 40px 40px 40px;
+                            p{
+                                color: #FFF;
+                                font-family: DM Sans;
+                                font-size: 12px;
+                                font-weight: 700;
+                                letter-spacing: 2px;
+                            }
+                        }
+                    }
+                }
+                .arcitect:hover{
+                    transform: translateY(-25px);
+                    transition: 1s;
+                }
+            }
+            .pictures2{
+                display: flex;
+                max-width: 1440px;
+                .world{
+                    width: 360px;
+                    height: 500px;
+                    background-image: url("/img/stories/world.png");
+                    .text{
+                            h4{
+                                padding: 361px 40px 0px 40px;
+                                color: #FFF;
+                                font-family: DM Sans;
+                                font-size: 18px;
+                                font-weight: 700;
+                                line-height: 25px;
+                            }
+                            h5{
+                                padding: 4px 40px 16px 40px;
+                                color: #FFF;
+                                font-family: DM Sans;
+                                font-size: 13px;
+                                font-style: normal;
+                                font-weight: 400;
+                                line-height: normal;
+                            }
+                            .line{
+                                width: 280px;
+                                height: 1px;
+                                background-color: #fff;
+                                margin: 0px 40px;
+                            }
+                            .story{
+                                display: flex;
+                                align-items: center;
+                                justify-content: space-between;
+                                width: 280px;
+                                height: 16px;
+                                margin: 20px 40px 40px 40px;
+                                p{
+                                    color: #FFF;
+                                    font-family: DM Sans;
+                                    font-size: 12px;
+                                    font-weight: 700;
+                                    letter-spacing: 2px;
+                                }
+                            }
+                    }
+                }
+                .world:hover{
+                    transform: translateY(-25px);
+                    transition: 1s;
+                }
+                .unforoseen{
+                    width: 360px;
+                    height: 500px;
+                    background-image: url(../img/stories/unforoseen.png);
+                    .text{
+                        h4{
+                            padding: 361px 40px 0px 40px;
+                            color: #FFF;
+                            font-family: DM Sans;
+                            font-size: 18px;
+                            font-weight: 700;
+                            line-height: 25px;
+                        }
+                        h5{
+                            padding: 4px 40px 16px 40px;
+                            color: #FFF;
+                            font-family: DM Sans;
+                            font-size: 13px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: normal;
+                        }
+                        .line{
+                            width: 280px;
+                            height: 1px;
+                            background-color: #fff;
+                            margin: 0px 40px;
+                        }
+                        .story{
+                            display: flex;
+                            align-items: center;
+                            justify-content: space-between;
+                            width: 280px;
+                            height: 16px;
+                            margin: 20px 40px 40px 40px;
+                            p{
+                                color: #FFF;
+                                font-family: DM Sans;
+                                font-size: 12px;
+                                font-weight: 700;
+                                letter-spacing: 2px;
+                            }
+                        }
+                    }
+                }
+                .unforeseen:hover{
+                    transform: translateY(-25px);
+                    transition: 1s;
+                }
+                .lion{
+                    width: 360px;
+                    height: 500px;
+                    background-image: url(../img/stories/lion.png);
+                    .text{
+                        h4{
+                            padding: 361px 40px 0px 40px;
+                            color: #FFF;
+                            font-family: DM Sans;
+                            font-size: 18px;
+                            font-weight: 700;
+                            line-height: 25px;
+                        }
+                        h5{
+                            padding: 4px 40px 16px 40px;
+                            color: #FFF;
+                            font-family: DM Sans;
+                            font-size: 13px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: normal;
+                        }
+                        .line{
+                            width: 280px;
+                            height: 1px;
+                            background-color: #fff;
+                            margin: 0px 40px;
+                        }
+                        .story{
+                            display: flex;
+                            align-items: center;
+                            justify-content: space-between;
+                            width: 280px;
+                            height: 16px;
+                            margin: 20px 40px 40px 40px;
+                            p{
+                                color: #FFF;
+                                font-family: DM Sans;
+                                font-size: 12px;
+                                font-weight: 700;
+                                letter-spacing: 2px;
+                            }
+                        }
+                    }
+                }
+                .lion:hover{
+                    transform: translateY(-25px);
+                    transition: 1s;
+                }
+                .trip{
+                    width: 360px;
+                    height: 500px;
+                    background-image: url(../img/stories/trip.jpg);
+                    .text{
+                        h4{
+                            padding: 361px 40px 0px 40px;
+                            color: #FFF;
+                            font-family: DM Sans;
+                            font-size: 18px;
+                            font-weight: 700;
+                            line-height: 25px;
+                        }
+                        h5{
+                            padding: 4px 40px 16px 40px;
+                            color: #FFF;
+                            font-family: DM Sans;
+                            font-size: 13px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: normal;
+                        }
+                        .line{
+                            width: 280px;
+                            height: 1px;
+                            background-color: #fff;
+                            margin: 0px 40px;
+                        }
+                        .story{
+                            display: flex;
+                            align-items: center;
+                            justify-content: space-between;
+                            width: 280px;
+                            height: 16px;
+                            margin: 20px 40px 40px 40px;
+                            p{
+                                color: #FFF;
+                                font-family: DM Sans;
+                                font-size: 12px;
+                                font-weight: 700;
+                                letter-spacing: 2px;
+                            }
+                        }
+                    }
+                }
+                .trip:hover{
+                    transform: translateY(-25px);
+                    transition: 1s;
+                }
+            }
+            .pictures3{
+                display: flex;
+                max-width: 1440px;
+                .sea{
+                    width: 360px;
+                    height: 500px;
+                    background-image: url("/img/stories/sea.png");
+                    .text{
+                            h4{
+                                padding: 361px 40px 0px 40px;
+                                color: #FFF;
+                                font-family: DM Sans;
+                                font-size: 18px;
+                                font-weight: 700;
+                                line-height: 25px;
+                            }
+                            h5{
+                                padding: 4px 40px 16px 40px;
+                                color: #FFF;
+                                font-family: DM Sans;
+                                font-size: 13px;
+                                font-style: normal;
+                                font-weight: 400;
+                                line-height: normal;
+                            }
+                            .line{
+                                width: 280px;
+                                height: 1px;
+                                background-color: #fff;
+                                margin: 0px 40px;
+                            }
+                            .story{
+                                display: flex;
+                                align-items: center;
+                                justify-content: space-between;
+                                width: 280px;
+                                height: 16px;
+                                margin: 20px 40px 40px 40px;
+                                p{
+                                    color: #FFF;
+                                    font-family: DM Sans;
+                                    font-size: 12px;
+                                    font-weight: 700;
+                                    letter-spacing: 2px;
+                                }
+                            }
+                    }
+                }
+                .sea:hover{
+                    transform: translateY(-25px);
+                    transition: 1s;
+                }
+                .horse{
+                    width: 360px;
+                    height: 500px;
+                    background-image: url(../img/stories/horse.png);
+                    .text{
+                        h4{
+                            padding: 361px 40px 0px 40px;
+                            color: #FFF;
+                            font-family: DM Sans;
+                            font-size: 18px;
+                            font-weight: 700;
+                            line-height: 25px;
+                        }
+                        h5{
+                            padding: 4px 40px 16px 40px;
+                            color: #FFF;
+                            font-family: DM Sans;
+                            font-size: 13px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: normal;
+                        }
+                        .line{
+                            width: 280px;
+                            height: 1px;
+                            background-color: #fff;
+                            margin: 0px 40px;
+                        }
+                        .story{
+                            display: flex;
+                            align-items: center;
+                            justify-content: space-between;
+                            width: 280px;
+                            height: 16px;
+                            margin: 20px 40px 40px 40px;
+                            p{
+                                color: #FFF;
+                                font-family: DM Sans;
+                                font-size: 12px;
+                                font-weight: 700;
+                                letter-spacing: 2px;
+                            }
+                        }
+                    }
+                }
+                .horse:hover{
+                    transform: translateY(-25px);
+                    transition: 1s;
+                }
+                .waves{
+                    width: 360px;
+                    height: 500px;
+                    background-image: url(../img/stories/waves.png);
+                    .text{
+                        h4{
+                            padding: 361px 40px 0px 40px;
+                            color: #FFF;
+                            font-family: DM Sans;
+                            font-size: 18px;
+                            font-weight: 700;
+                            line-height: 25px;
+                        }
+                        h5{
+                            padding: 4px 40px 16px 40px;
+                            color: #FFF;
+                            font-family: DM Sans;
+                            font-size: 13px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: normal;
+                        }
+                        .line{
+                            width: 280px;
+                            height: 1px;
+                            background-color: #fff;
+                            margin: 0px 40px;
+                        }
+                        .story{
+                            display: flex;
+                            align-items: center;
+                            justify-content: space-between;
+                            width: 280px;
+                            height: 16px;
+                            margin: 20px 40px 40px 40px;
+                            p{
+                                color: #FFF;
+                                font-family: DM Sans;
+                                font-size: 12px;
+                                font-weight: 700;
+                                letter-spacing: 2px;
+                            }
+                        }
+                    }
+                }
+                .waves:hover{
+                    transform: translateY(-25px);
+                    transition: 1s;
+                }
+                .calm{
+                    width: 360px;
+                    height: 500px;
+                    background-image: url(../img/stories/calm.png);
+                    .text{
+                        h4{
+                            padding: 361px 40px 0px 40px;
+                            color: #FFF;
+                            font-family: DM Sans;
+                            font-size: 18px;
+                            font-weight: 700;
+                            line-height: 25px;
+                        }
+                        h5{
+                            padding: 4px 40px 16px 40px;
+                            color: #FFF;
+                            font-family: DM Sans;
+                            font-size: 13px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: normal;
+                        }
+                        .line{
+                            width: 280px;
+                            height: 1px;
+                            background-color: #fff;
+                            margin: 0px 40px;
+                        }
+                        .story{
+                            display: flex;
+                            align-items: center;
+                            justify-content: space-between;
+                            width: 280px;
+                            height: 16px;
+                            margin: 20px 40px 40px 40px;
+                            p{
+                                color: #FFF;
+                                font-family: DM Sans;
+                                font-size: 12px;
+                                font-weight: 700;
+                                letter-spacing: 2px;
+                            }
+                        }
+                    }
+                }
+                .calm:hover{
+                    transform: translateY(-25px);
+                    transition: 1s;
+                }
+            }
+            .pictures4{
+                display: flex;
+                max-width: 1440px;
+                .universe{
+                    width: 360px;
+                    height: 500px;
+                    background-image: url("/img/stories/universe.png");
+                    .text{
+                            h4{
+                                padding: 361px 40px 0px 40px;
+                                color: #FFF;
+                                font-family: DM Sans;
+                                font-size: 18px;
+                                font-weight: 700;
+                                line-height: 25px;
+                            }
+                            h5{
+                                padding: 4px 40px 16px 40px;
+                                color: #FFF;
+                                font-family: DM Sans;
+                                font-size: 13px;
+                                font-style: normal;
+                                font-weight: 400;
+                                line-height: normal;
+                            }
+                            .line{
+                                width: 280px;
+                                height: 1px;
+                                background-color: #fff;
+                                margin: 0px 40px;
+                            }
+                            .story{
+                                display: flex;
+                                align-items: center;
+                                justify-content: space-between;
+                                width: 280px;
+                                height: 16px;
+                                margin: 20px 40px 40px 40px;
+                                p{
+                                    color: #FFF;
+                                    font-family: DM Sans;
+                                    font-size: 12px;
+                                    font-weight: 700;
+                                    letter-spacing: 2px;
+                                }
+                            }
+                    }
+                }
+                .universe:hover{
+                    transform: translateY(-25px);
+                    transition: 1s;
+                }
+                .forest{
+                    width: 360px;
+                    height: 500px;
+                    background-image: url(../img/stories/forest.png);
+                    .text{
+                        h4{
+                            padding: 361px 40px 0px 40px;
+                            color: #FFF;
+                            font-family: DM Sans;
+                            font-size: 18px;
+                            font-weight: 700;
+                            line-height: 25px;
+                        }
+                        h5{
+                            padding: 4px 40px 16px 40px;
+                            color: #FFF;
+                            font-family: DM Sans;
+                            font-size: 13px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: normal;
+                        }
+                        .line{
+                            width: 280px;
+                            height: 1px;
+                            background-color: #fff;
+                            margin: 0px 40px;
+                        }
+                        .story{
+                            display: flex;
+                            align-items: center;
+                            justify-content: space-between;
+                            width: 280px;
+                            height: 16px;
+                            margin: 20px 40px 40px 40px;
+                            p{
+                                color: #FFF;
+                                font-family: DM Sans;
+                                font-size: 12px;
+                                font-weight: 700;
+                                letter-spacing: 2px;
+                            }
+                        }
+                    }
+                }
+                .forest:hover{
+                    transform: translateY(-25px);
+                    transition: 1s;
+                }
+                .beauty{
+                    width: 360px;
+                    height: 500px;
+                    background-image: url(../img/stories/Beauty.png);
+                    .text{
+                        h4{
+                            padding: 361px 40px 0px 40px;
+                            color: #FFF;
+                            font-family: DM Sans;
+                            font-size: 18px;
+                            font-weight: 700;
+                            line-height: 25px;
+                        }
+                        h5{
+                            padding: 4px 40px 16px 40px;
+                            color: #FFF;
+                            font-family: DM Sans;
+                            font-size: 13px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: normal;
+                        }
+                        .line{
+                            width: 280px;
+                            height: 1px;
+                            background-color: #fff;
+                            margin: 0px 40px;
+                        }
+                        .story{
+                            display: flex;
+                            align-items: center;
+                            justify-content: space-between;
+                            width: 280px;
+                            height: 16px;
+                            margin: 20px 40px 40px 40px;
+                            p{
+                                color: #FFF;
+                                font-family: DM Sans;
+                                font-size: 12px;
+                                font-weight: 700;
+                                letter-spacing: 2px;
+                            }
+                        }
+                    }
+                }
+                .beauty:hover{
+                    transform: translateY(-25px);
+                    transition: 1s;
+                }
+                .dream{
+                    width: 360px;
+                    height: 500px;
+                    background-image: url(../img/stories/dreams.png);
+                    .text{
+                        h4{
+                            padding: 361px 40px 0px 40px;
+                            color: #FFF;
+                            font-family: DM Sans;
+                            font-size: 18px;
+                            font-weight: 700;
+                            line-height: 25px;
+                        }
+                        h5{
+                            padding: 4px 40px 16px 40px;
+                            color: #FFF;
+                            font-family: DM Sans;
+                            font-size: 13px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: normal;
+                        }
+                        .line{
+                            width: 280px;
+                            height: 1px;
+                            background-color: #fff;
+                            margin: 0px 40px;
+                        }
+                        .story{
+                            display: flex;
+                            align-items: center;
+                            justify-content: space-between;
+                            width: 280px;
+                            height: 16px;
+                            margin: 20px 40px 40px 40px;
+                            p{
+                                color: #FFF;
+                                font-family: DM Sans;
+                                font-size: 12px;
+                                font-weight: 700;
+                                letter-spacing: 2px;
+                            }
+                        }
+                    }
+                }
+                .dream:hover{
+                    transform: translateY(-25px);
+                    transition: 1s;
+                }
+            }
+        }
+        footer{
+            // margin-top: 120px;
+            width: 100%;
+            // height: 250px;
+            background-color: #000;
+            .footer{
+                display: flex;
+                // justify-content: space-between;
+                max-width: 1440px;
+                // height: 122px;
+                background-color: #000;
+                padding: 64px 165px 64px 171px;
+                .icons{
+                    display: flex;
+                    flex-direction: column;
+                    margin-left: 119px; 
+                    img{
+                        width: 170px;
+                    }
+                    .symbols{
+                        display: flex;
+                        gap: 15px;
+                        width: 154px;
+                        height: 20px;
+                        padding-top: 85px;
+                        svg{
+                            cursor: pointer;
+                        }
+
+                        .facebook:hover{
+                                // fill: red;   
+                                path{
+
+                                    fill: #6028F1;
+                                }
+                        }
+                        .youtube:hover{
+                            // fill: red;   
+                            path{
+                                fill: red;
+                            }
+                        }
+                        .twitter:hover{
+                            // fill: red;   
+                            path{
+
+                                fill:  #63AFDB;
+                            }
+                        }
+                        .prin:hover{
+                            path{
+
+                                fill: #e29654;
+                            }
+                        }
+                        .insta:hover{  
+                            path{
+                                fill: linear-gradient(#FFC593, #BC7198, #5A77FF);
+                            }
+                        }
+                    }
+                }
+                .menu{
+                    ul{
+                        display: flex;
+                        flex-direction: column;
+                        gap: 19px;
+                        padding-left: 119px;
+                        li{
+                            list-style: none;
+                            a{
+                                text-decoration: none;
+                                color: #FFF;
+                                font-family: DM Sans;
+                                font-size: 12px;
+                                font-weight: 700;
+                                letter-spacing: 2px;
+                                text-transform: uppercase;
+                            }
+                            a:hover{
+                                opacity: 0.3;
+                            }
+                        }
+                    }
+                }
+                .end{
+                    display: flex;
+                    flex-direction: column;
+    
+                    .invite{
+                        display: flex;
+                        align-items: center;
+                        // justify-content: flex-start;
+                        gap: 18px;
+                        padding-top: 48px;
+                        margin-right: 215px;
+                        a{
+                            color: #FFF;
+                            font-family: DM Sans;
+                            font-size: 12px;
+                            font-weight: 700;
+                            letter-spacing: 2px;
+                            text-decoration: none;
+                        }
+                        a:hover{
+                            text-decoration: underline;
+                            cursor: pointer;
+                        }
+                    }
+                    p{
+                        padding-top: 109px;
+                        color: #FFF;
+                        text-align: right;
+                        font-family: DM Sans;
+                        font-size: 15px;
+                        font-weight: 400;
+                        opacity: 0.5025;
+                    }
+                }
+            }
+        }
+    }
+}
+@media(max-width:800px){
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .container{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            max-width: 1440px;
+            header{
+                padding: 28px 165px 28px 165px;
+                display: flex;
+                // justify-content: space-between;
+                align-items: center;
+                max-width: 800px;
+                height: 72px;
+                background-color: #fff;
+                nav{
+                    display: none;
+                    // margin-left: 251px;
+                    ul{
+                        display: flex;
+                        list-style-type: none;
+                        gap: 37px;
+                        a{
+                            text-decoration: none;
+                            color: #000;
+                            font-family: DM Sans;
+                            font-size: 12px;
+                            font-style: normal;
+                            font-weight: 700;
+                            line-height: normal;
+                            letter-spacing: 2px;
+                        }
+                        a:hover{
+                            opacity: 0.3;
+                        }
+                    }
+                }
+                button{
+                    width: 158px;
+                    height: 40px;
+                    background: #000;
+                    border: none;
+                    color: #FFF;
+                    font-family: DM Sans;
+                    font-size: 12px;
+                    font-weight: 700;
+                    letter-spacing: 2px;
+                }
+                button:hover{
+                    background: #DFDFDF;
+                    color: #000;
+                }
+            }
+            main{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                // width: 1440px;
+                // height: 1440px;
+                .create{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    // width: 1440px;
+                    // height: 610px;
+                    background-image: none;
+                    background-repeat: no-repeat;
+                    .moon-mobile{
+                        display: block;
+                    }
+                    .text{
+                        display: flex;
+                        flex-direction: column;
+                        // align-items: center;
+                        justify-content: center;
+                        gap: 20px;
+                        padding-left: 52px;
+                        background: black;
+                        max-width: 375px;
+                        height: 450px;
+                        h1{
+                            color: #FFF;
+                            font-family: DM Sans;
+                            font-size: 12px;
+                            font-style: normal;
+                            font-weight: 700;
+                            line-height: normal;
+                            letter-spacing: 2px;
+                        }
+                        h2{
+                            width: 287px;
+                            color: #FFF;
+                            font-family: DM Sans;
+                            font-size: 40px;
+                            font-style: normal;
+                            font-weight: 700;
+                            line-height: 48px;
+                            letter-spacing: 4.167px;
+                            text-transform: uppercase;
+                        }
+                        h3{
+                            opacity: 0.6;
+                            width: 387px;
+                            color: #FFF;
+                            font-family: DM Sans;
+                            font-size: 13px;
+                            font-weight: 400;
+                            gap: 9px;
+                            span{
+                                color: #FFF;
+                                font-family: DM Sans;
+                                font-size: 13px;
+                                font-weight: 400;
+                            }
+                        }
+                        .read{
+                            display: flex;
+                            padding-left: 2px;
+                            justify-content: center;
+                            align-items: center;
+                            gap: 16px;
+                            margin-left: -120px;
+                            a{
+                                opacity: 1;
+                                text-decoration: none;
+                                color: #FFF;
+                                text-align: right;
+                                font-family: DM Sans;
+                                font-size: 12px;
+                                font-weight: 700;
+                                letter-spacing: 2px;
+                            }
+                            a:hover{
+                                text-decoration: underline;
+                            }
+                        }
+                    }
+                }
+                .pictures{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    flex-wrap: wrap;
+                    flex-direction: column;
+                    max-width: 800px;
+                    .mountain{
+                        width: 360px;
+                        height: 500px;
+                        background-image: url(../img/mountain.png);
+                        .text{
+                                h4{
+                                    padding: 361px 40px 0px 40px;
+                                    color: #FFF;
+                                    font-family: DM Sans;
+                                    font-size: 18px;
+                                    font-weight: 700;
+                                    line-height: 25px;
+                                }
+                                h5{
+                                    padding: 4px 40px 16px 40px;
+                                    color: #FFF;
+                                    font-family: DM Sans;
+                                    font-size: 13px;
+                                    font-style: normal;
+                                    font-weight: 400;
+                                    line-height: normal;
+                                }
+                                .line{
+                                    width: 280px;
+                                    height: 1px;
+                                    background-color: #fff;
+                                    margin: 0px 40px;
+                                }
+                                .story{
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: space-between;
+                                    width: 280px;
+                                    height: 16px;
+                                    margin: 20px 40px 40px 40px;
+                                    p{
+                                        color: #FFF;
+                                        font-family: DM Sans;
+                                        font-size: 12px;
+                                        font-weight: 700;
+                                        letter-spacing: 2px;
+                                    }
+                                }
+                        }
+                    }
+                    .mountain:hover{
+                        transform: translateY(-25px);
+                        transition: 1s;
+                    }
+                    .city{
+                        width: 360px;
+                        height: 500px;
+                        background-image: url(../img/city.png);
+                        .text{
+                            h4{
+                                padding: 361px 40px 0px 40px;
+                                color: #FFF;
+                                font-family: DM Sans;
+                                font-size: 18px;
+                                font-weight: 700;
+                                line-height: 25px;
+                            }
+                            h5{
+                                padding: 4px 40px 16px 40px;
+                                color: #FFF;
+                                font-family: DM Sans;
+                                font-size: 13px;
+                                font-style: normal;
+                                font-weight: 400;
+                                line-height: normal;
+                            }
+                            .line{
+                                width: 280px;
+                                height: 1px;
+                                background-color: #fff;
+                                margin: 0px 40px;
+                            }
+                            .story{
+                                display: flex;
+                                align-items: center;
+                                justify-content: space-between;
+                                width: 280px;
+                                height: 16px;
+                                margin: 20px 40px 40px 40px;
+                                p{
+                                    color: #FFF;
+                                    font-family: DM Sans;
+                                    font-size: 12px;
+                                    font-weight: 700;
+                                    letter-spacing: 2px;
+                                }
+                            }
+                        }
+                    }
+                    .city:hover{
+                        transform: translateY(-25px);
+                        transition: 1s;
+                    }
+                    .travel{
+                        width: 360px;
+                        height: 500px;
+                        background-image: url(../img/travel.png);
+                        .text{
+                            h4{
+                                padding: 361px 40px 0px 40px;
+                                color: #FFF;
+                                font-family: DM Sans;
+                                font-size: 18px;
+                                font-weight: 700;
+                                line-height: 25px;
+                            }
+                            h5{
+                                padding: 4px 40px 16px 40px;
+                                color: #FFF;
+                                font-family: DM Sans;
+                                font-size: 13px;
+                                font-style: normal;
+                                font-weight: 400;
+                                line-height: normal;
+                            }
+                            .line{
+                                width: 280px;
+                                height: 1px;
+                                background-color: #fff;
+                                margin: 0px 40px;
+                            }
+                            .story{
+                                display: flex;
+                                align-items: center;
+                                justify-content: space-between;
+                                width: 280px;
+                                height: 16px;
+                                margin: 20px 40px 40px 40px;
+                                p{
+                                    color: #FFF;
+                                    font-family: DM Sans;
+                                    font-size: 12px;
+                                    font-weight: 700;
+                                    letter-spacing: 2px;
+                                }
+                            }
+                        }
+                    }
+                    .travel:hover{
+                        transform: translateY(-25px);
+                        transition: 1s;
+                    }
+                    .arcitect{
+                        width: 360px;
+                        height: 500px;
+                        background-image: url(../img/tower.png);
+                        .text{
+                            h4{
+                                padding: 361px 40px 0px 40px;
+                                color: #FFF;
+                                font-family: DM Sans;
+                                font-size: 18px;
+                                font-weight: 700;
+                                line-height: 25px;
+                            }
+                            h5{
+                                padding: 4px 40px 16px 40px;
+                                color: #FFF;
+                                font-family: DM Sans;
+                                font-size: 13px;
+                                font-style: normal;
+                                font-weight: 400;
+                                line-height: normal;
+                            }
+                            .line{
+                                width: 280px;
+                                height: 1px;
+                                background-color: #fff;
+                                margin: 0px 40px;
+                            }
+                            .story{
+                                display: flex;
+                                align-items: center;
+                                justify-content: space-between;
+                                width: 280px;
+                                height: 16px;
+                                margin: 20px 40px 40px 40px;
+                                p{
+                                    color: #FFF;
+                                    font-family: DM Sans;
+                                    font-size: 12px;
+                                    font-weight: 700;
+                                    letter-spacing: 2px;
+                                }
+                            }
+                        }
+                    }
+                    .arcitect:hover{
+                        transform: translateY(-25px);
+                        transition: 1s;
+                    }
+                }
+                .pictures2{
+                    display: flex;
+                    flex-wrap: wrap;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    max-width: 1440px;
+                    .world{
+                        width: 360px;
+                        height: 500px;
+                        background-image: url("/img/stories/world.png");
+                        .text{
+                                h4{
+                                    padding: 361px 40px 0px 40px;
+                                    color: #FFF;
+                                    font-family: DM Sans;
+                                    font-size: 18px;
+                                    font-weight: 700;
+                                    line-height: 25px;
+                                }
+                                h5{
+                                    padding: 4px 40px 16px 40px;
+                                    color: #FFF;
+                                    font-family: DM Sans;
+                                    font-size: 13px;
+                                    font-style: normal;
+                                    font-weight: 400;
+                                    line-height: normal;
+                                }
+                                .line{
+                                    width: 280px;
+                                    height: 1px;
+                                    background-color: #fff;
+                                    margin: 0px 40px;
+                                }
+                                .story{
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: space-between;
+                                    width: 280px;
+                                    height: 16px;
+                                    margin: 20px 40px 40px 40px;
+                                    p{
+                                        color: #FFF;
+                                        font-family: DM Sans;
+                                        font-size: 12px;
+                                        font-weight: 700;
+                                        letter-spacing: 2px;
+                                    }
+                                }
+                        }
+                    }
+                    .world:hover{
+                        transform: translateY(-25px);
+                        transition: 1s;
+                    }
+                    .unforoseen{
+                        width: 360px;
+                        height: 500px;
+                        background-image: url(../img/stories/unforoseen.png);
+                        .text{
+                            h4{
+                                padding: 361px 40px 0px 40px;
+                                color: #FFF;
+                                font-family: DM Sans;
+                                font-size: 18px;
+                                font-weight: 700;
+                                line-height: 25px;
+                            }
+                            h5{
+                                padding: 4px 40px 16px 40px;
+                                color: #FFF;
+                                font-family: DM Sans;
+                                font-size: 13px;
+                                font-style: normal;
+                                font-weight: 400;
+                                line-height: normal;
+                            }
+                            .line{
+                                width: 280px;
+                                height: 1px;
+                                background-color: #fff;
+                                margin: 0px 40px;
+                            }
+                            .story{
+                                display: flex;
+                                align-items: center;
+                                justify-content: space-between;
+                                width: 280px;
+                                height: 16px;
+                                margin: 20px 40px 40px 40px;
+                                p{
+                                    color: #FFF;
+                                    font-family: DM Sans;
+                                    font-size: 12px;
+                                    font-weight: 700;
+                                    letter-spacing: 2px;
+                                }
+                            }
+                        }
+                    }
+                    .unforeseen:hover{
+                        transform: translateY(-25px);
+                        transition: 1s;
+                    }
+                    .lion{
+                        width: 360px;
+                        height: 500px;
+                        background-image: url(../img/stories/lion.png);
+                        .text{
+                            h4{
+                                padding: 361px 40px 0px 40px;
+                                color: #FFF;
+                                font-family: DM Sans;
+                                font-size: 18px;
+                                font-weight: 700;
+                                line-height: 25px;
+                            }
+                            h5{
+                                padding: 4px 40px 16px 40px;
+                                color: #FFF;
+                                font-family: DM Sans;
+                                font-size: 13px;
+                                font-style: normal;
+                                font-weight: 400;
+                                line-height: normal;
+                            }
+                            .line{
+                                width: 280px;
+                                height: 1px;
+                                background-color: #fff;
+                                margin: 0px 40px;
+                            }
+                            .story{
+                                display: flex;
+                                align-items: center;
+                                justify-content: space-between;
+                                width: 280px;
+                                height: 16px;
+                                margin: 20px 40px 40px 40px;
+                                p{
+                                    color: #FFF;
+                                    font-family: DM Sans;
+                                    font-size: 12px;
+                                    font-weight: 700;
+                                    letter-spacing: 2px;
+                                }
+                            }
+                        }
+                    }
+                    .lion:hover{
+                        transform: translateY(-25px);
+                        transition: 1s;
+                    }
+                    .trip{
+                        width: 360px;
+                        height: 500px;
+                        background-image: url(../img/stories/trip.jpg);
+                        .text{
+                            h4{
+                                padding: 361px 40px 0px 40px;
+                                color: #FFF;
+                                font-family: DM Sans;
+                                font-size: 18px;
+                                font-weight: 700;
+                                line-height: 25px;
+                            }
+                            h5{
+                                padding: 4px 40px 16px 40px;
+                                color: #FFF;
+                                font-family: DM Sans;
+                                font-size: 13px;
+                                font-style: normal;
+                                font-weight: 400;
+                                line-height: normal;
+                            }
+                            .line{
+                                width: 280px;
+                                height: 1px;
+                                background-color: #fff;
+                                margin: 0px 40px;
+                            }
+                            .story{
+                                display: flex;
+                                align-items: center;
+                                justify-content: space-between;
+                                width: 280px;
+                                height: 16px;
+                                margin: 20px 40px 40px 40px;
+                                p{
+                                    color: #FFF;
+                                    font-family: DM Sans;
+                                    font-size: 12px;
+                                    font-weight: 700;
+                                    letter-spacing: 2px;
+                                }
+                            }
+                        }
+                    }
+                    .trip:hover{
+                        transform: translateY(-25px);
+                        transition: 1s;
+                    }
+                }
+                .pictures3{
+                    display: flex;
+                    flex-direction: column;
+                    max-width: 1440px;
+                    .sea{
+                        width: 360px;
+                        height: 500px;
+                        background-image: url("/img/stories/sea.png");
+                        .text{
+                                h4{
+                                    padding: 361px 40px 0px 40px;
+                                    color: #FFF;
+                                    font-family: DM Sans;
+                                    font-size: 18px;
+                                    font-weight: 700;
+                                    line-height: 25px;
+                                }
+                                h5{
+                                    padding: 4px 40px 16px 40px;
+                                    color: #FFF;
+                                    font-family: DM Sans;
+                                    font-size: 13px;
+                                    font-style: normal;
+                                    font-weight: 400;
+                                    line-height: normal;
+                                }
+                                .line{
+                                    width: 280px;
+                                    height: 1px;
+                                    background-color: #fff;
+                                    margin: 0px 40px;
+                                }
+                                .story{
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: space-between;
+                                    width: 280px;
+                                    height: 16px;
+                                    margin: 20px 40px 40px 40px;
+                                    p{
+                                        color: #FFF;
+                                        font-family: DM Sans;
+                                        font-size: 12px;
+                                        font-weight: 700;
+                                        letter-spacing: 2px;
+                                    }
+                                }
+                        }
+                    }
+                    .sea:hover{
+                        transform: translateY(-25px);
+                        transition: 1s;
+                    }
+                    .horse{
+                        width: 360px;
+                        height: 500px;
+                        background-image: url(../img/stories/horse.png);
+                        .text{
+                            h4{
+                                padding: 361px 40px 0px 40px;
+                                color: #FFF;
+                                font-family: DM Sans;
+                                font-size: 18px;
+                                font-weight: 700;
+                                line-height: 25px;
+                            }
+                            h5{
+                                padding: 4px 40px 16px 40px;
+                                color: #FFF;
+                                font-family: DM Sans;
+                                font-size: 13px;
+                                font-style: normal;
+                                font-weight: 400;
+                                line-height: normal;
+                            }
+                            .line{
+                                width: 280px;
+                                height: 1px;
+                                background-color: #fff;
+                                margin: 0px 40px;
+                            }
+                            .story{
+                                display: flex;
+                                align-items: center;
+                                justify-content: space-between;
+                                width: 280px;
+                                height: 16px;
+                                margin: 20px 40px 40px 40px;
+                                p{
+                                    color: #FFF;
+                                    font-family: DM Sans;
+                                    font-size: 12px;
+                                    font-weight: 700;
+                                    letter-spacing: 2px;
+                                }
+                            }
+                        }
+                    }
+                    .horse:hover{
+                        transform: translateY(-25px);
+                        transition: 1s;
+                    }
+                    .waves{
+                        width: 360px;
+                        height: 500px;
+                        background-image: url(../img/stories/waves.png);
+                        .text{
+                            h4{
+                                padding: 361px 40px 0px 40px;
+                                color: #FFF;
+                                font-family: DM Sans;
+                                font-size: 18px;
+                                font-weight: 700;
+                                line-height: 25px;
+                            }
+                            h5{
+                                padding: 4px 40px 16px 40px;
+                                color: #FFF;
+                                font-family: DM Sans;
+                                font-size: 13px;
+                                font-style: normal;
+                                font-weight: 400;
+                                line-height: normal;
+                            }
+                            .line{
+                                width: 280px;
+                                height: 1px;
+                                background-color: #fff;
+                                margin: 0px 40px;
+                            }
+                            .story{
+                                display: flex;
+                                align-items: center;
+                                justify-content: space-between;
+                                width: 280px;
+                                height: 16px;
+                                margin: 20px 40px 40px 40px;
+                                p{
+                                    color: #FFF;
+                                    font-family: DM Sans;
+                                    font-size: 12px;
+                                    font-weight: 700;
+                                    letter-spacing: 2px;
+                                }
+                            }
+                        }
+                    }
+                    .waves:hover{
+                        transform: translateY(-25px);
+                        transition: 1s;
+                    }
+                    .calm{
+                        width: 360px;
+                        height: 500px;
+                        background-image: url(../img/stories/calm.png);
+                        .text{
+                            h4{
+                                padding: 361px 40px 0px 40px;
+                                color: #FFF;
+                                font-family: DM Sans;
+                                font-size: 18px;
+                                font-weight: 700;
+                                line-height: 25px;
+                            }
+                            h5{
+                                padding: 4px 40px 16px 40px;
+                                color: #FFF;
+                                font-family: DM Sans;
+                                font-size: 13px;
+                                font-style: normal;
+                                font-weight: 400;
+                                line-height: normal;
+                            }
+                            .line{
+                                width: 280px;
+                                height: 1px;
+                                background-color: #fff;
+                                margin: 0px 40px;
+                            }
+                            .story{
+                                display: flex;
+                                align-items: center;
+                                justify-content: space-between;
+                                width: 280px;
+                                height: 16px;
+                                margin: 20px 40px 40px 40px;
+                                p{
+                                    color: #FFF;
+                                    font-family: DM Sans;
+                                    font-size: 12px;
+                                    font-weight: 700;
+                                    letter-spacing: 2px;
+                                }
+                            }
+                        }
+                    }
+                    .calm:hover{
+                        transform: translateY(-25px);
+                        transition: 1s;
+                    }
+                }
+                .pictures4{
+                    display: flex;
+                    flex-direction: column;
+                    max-width: 1440px;
+                    .universe{
+                        width: 360px;
+                        height: 500px;
+                        background-image: url("/img/stories/universe.png");
+                        .text{
+                                h4{
+                                    padding: 361px 40px 0px 40px;
+                                    color: #FFF;
+                                    font-family: DM Sans;
+                                    font-size: 18px;
+                                    font-weight: 700;
+                                    line-height: 25px;
+                                }
+                                h5{
+                                    padding: 4px 40px 16px 40px;
+                                    color: #FFF;
+                                    font-family: DM Sans;
+                                    font-size: 13px;
+                                    font-style: normal;
+                                    font-weight: 400;
+                                    line-height: normal;
+                                }
+                                .line{
+                                    width: 280px;
+                                    height: 1px;
+                                    background-color: #fff;
+                                    margin: 0px 40px;
+                                }
+                                .story{
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: space-between;
+                                    width: 280px;
+                                    height: 16px;
+                                    margin: 20px 40px 40px 40px;
+                                    p{
+                                        color: #FFF;
+                                        font-family: DM Sans;
+                                        font-size: 12px;
+                                        font-weight: 700;
+                                        letter-spacing: 2px;
+                                    }
+                                }
+                        }
+                    }
+                    .universe:hover{
+                        transform: translateY(-25px);
+                        transition: 1s;
+                    }
+                    .forest{
+                        width: 360px;
+                        height: 500px;
+                        background-image: url(../img/stories/forest.png);
+                        .text{
+                            h4{
+                                padding: 361px 40px 0px 40px;
+                                color: #FFF;
+                                font-family: DM Sans;
+                                font-size: 18px;
+                                font-weight: 700;
+                                line-height: 25px;
+                            }
+                            h5{
+                                padding: 4px 40px 16px 40px;
+                                color: #FFF;
+                                font-family: DM Sans;
+                                font-size: 13px;
+                                font-style: normal;
+                                font-weight: 400;
+                                line-height: normal;
+                            }
+                            .line{
+                                width: 280px;
+                                height: 1px;
+                                background-color: #fff;
+                                margin: 0px 40px;
+                            }
+                            .story{
+                                display: flex;
+                                align-items: center;
+                                justify-content: space-between;
+                                width: 280px;
+                                height: 16px;
+                                margin: 20px 40px 40px 40px;
+                                p{
+                                    color: #FFF;
+                                    font-family: DM Sans;
+                                    font-size: 12px;
+                                    font-weight: 700;
+                                    letter-spacing: 2px;
+                                }
+                            }
+                        }
+                    }
+                    .forest:hover{
+                        transform: translateY(-25px);
+                        transition: 1s;
+                    }
+                    .beauty{
+                        width: 360px;
+                        height: 500px;
+                        background-image: url(../img/stories/Beauty.png);
+                        .text{
+                            h4{
+                                padding: 361px 40px 0px 40px;
+                                color: #FFF;
+                                font-family: DM Sans;
+                                font-size: 18px;
+                                font-weight: 700;
+                                line-height: 25px;
+                            }
+                            h5{
+                                padding: 4px 40px 16px 40px;
+                                color: #FFF;
+                                font-family: DM Sans;
+                                font-size: 13px;
+                                font-style: normal;
+                                font-weight: 400;
+                                line-height: normal;
+                            }
+                            .line{
+                                width: 280px;
+                                height: 1px;
+                                background-color: #fff;
+                                margin: 0px 40px;
+                            }
+                            .story{
+                                display: flex;
+                                align-items: center;
+                                justify-content: space-between;
+                                width: 280px;
+                                height: 16px;
+                                margin: 20px 40px 40px 40px;
+                                p{
+                                    color: #FFF;
+                                    font-family: DM Sans;
+                                    font-size: 12px;
+                                    font-weight: 700;
+                                    letter-spacing: 2px;
+                                }
+                            }
+                        }
+                    }
+                    .beauty:hover{
+                        transform: translateY(-25px);
+                        transition: 1s;
+                    }
+                    .dream{
+                        width: 360px;
+                        height: 500px;
+                        background-image: url(../img/stories/dreams.png);
+                        .text{
+                            h4{
+                                padding: 361px 40px 0px 40px;
+                                color: #FFF;
+                                font-family: DM Sans;
+                                font-size: 18px;
+                                font-weight: 700;
+                                line-height: 25px;
+                            }
+                            h5{
+                                padding: 4px 40px 16px 40px;
+                                color: #FFF;
+                                font-family: DM Sans;
+                                font-size: 13px;
+                                font-style: normal;
+                                font-weight: 400;
+                                line-height: normal;
+                            }
+                            .line{
+                                width: 280px;
+                                height: 1px;
+                                background-color: #fff;
+                                margin: 0px 40px;
+                            }
+                            .story{
+                                display: flex;
+                                align-items: center;
+                                justify-content: space-between;
+                                width: 280px;
+                                height: 16px;
+                                margin: 20px 40px 40px 40px;
+                                p{
+                                    color: #FFF;
+                                    font-family: DM Sans;
+                                    font-size: 12px;
+                                    font-weight: 700;
+                                    letter-spacing: 2px;
+                                }
+                            }
+                        }
+                    }
+                    .dream:hover{
+                        transform: translateY(-25px);
+                        transition: 1s;
+                    }
+                }
+            }
+            footer{
+                // margin-top: 120px;
+                width: 100%;
+                // height: 250px;
+                background-color: #000;
+                .footer{
+                    display: flex;
+                    flex-direction: column;
+                    // justify-content: space-between;
+                    // width: 1440px;
+                    // height: 122px;
+                    background-color: #000;
+                    padding: 64px 165px 64px 171px;
+                    .icons  {
+                        display: flex;
+                        flex-direction: column;
+                        gap: 25px;
+                        img{
+                            width: 170px;
+                        }
+                        .symbols{
+                            display: flex;
+                            gap: 15px;
+                            width: 154px;
+                            height: 20px;
+                            padding-top: 0px;
+                        }
+                    }
+                    .menu{
+                        ul{
+                            display: flex;
+                            flex-direction: column;
+                            gap: 19px;
+                            padding-left: 119px;
+                            li{
+                                list-style: none;
+                                a{
+                                    text-decoration: none;
+                                    color: #FFF;
+                                    font-family: DM Sans;
+                                    font-size: 12px;
+                                    font-weight: 700;
+                                    letter-spacing: 2px;
+                                    text-transform: uppercase;
+                                }
+                                a:hover{
+                                    opacity: 0.3;
+                                }
+                            }
+                        }
+                    }
+                    .end{
+                        display: flex;
+                        flex-direction: column;
+        
+                        .invite{
+                            display: flex;
+                            align-items: center;
+                            // justify-content: flex-start;
+                            gap: 18px;
+                            padding-top: 48px;
+                            margin-right: 215px;
+                            a{
+                                color: #FFF;
+                                font-family: DM Sans;
+                                font-size: 12px;
+                                font-weight: 700;
+                                letter-spacing: 2px;
+                                text-decoration: none;
+                            }
+                            a:hover{
+                                text-decoration: underline;
+                                cursor: pointer;
+                            }
+                        }
+                        p{
+                            padding-top: 109px;
+                            color: #FFF;
+                            text-align: right;
+                            font-family: DM Sans;
+                            font-size: 15px;
+                            font-weight: 400;
+                            opacity: 0.5025;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

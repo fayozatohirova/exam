@@ -1,0 +1,2003 @@
+@import url("https://fonts.googleapis.com/css2?family=Alata&family=DM+Sans:opsz,wght@9..40,400;9..40,700&family=Josefin+Sans:wght@300&family=League+Spartan:wght@500;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 1440px;
+}
+body .container header {
+  padding: 28px 165px 28px 165px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1440px;
+  height: 72px;
+  background-color: #fff;
+}
+body .container header nav ul {
+  display: flex;
+  list-style-type: none;
+  gap: 37px;
+}
+body .container header nav ul a {
+  text-decoration: none;
+  color: #000;
+  font-family: DM Sans;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 2px;
+}
+body .container header nav ul a:hover {
+  opacity: 0.3;
+}
+body .container header button {
+  width: 158px;
+  height: 40px;
+  background: #000;
+  border: none;
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+body .container header button:hover {
+  background: #DFDFDF;
+  color: #000;
+}
+body .container main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+body .container main .create {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  padding-top: 122px;
+  background-image: url("/img/stories/moon.png");
+  background-repeat: no-repeat;
+}
+body .container main .create .moon-mobile {
+  display: none;
+}
+body .container main .create .text {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-left: 112px;
+}
+body .container main .create .text h1 {
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 2px;
+}
+body .container main .create .text h2 {
+  width: 287px;
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 4.167px;
+  text-transform: uppercase;
+}
+body .container main .create .text h3 {
+  opacity: 0.6;
+  width: 387px;
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 13px;
+  font-weight: 400;
+  gap: 9px;
+}
+body .container main .create .text h3 span {
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 13px;
+  font-weight: 400;
+}
+body .container main .create .text .read {
+  display: flex;
+  padding-left: 2px;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  margin-left: -200px;
+}
+body .container main .create .text .read a {
+  opacity: 1;
+  text-decoration: none;
+  color: #FFF;
+  text-align: right;
+  font-family: DM Sans;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+body .container main .create .text .read a:hover {
+  text-decoration: underline;
+}
+body .container main .pictures {
+  display: flex;
+  max-width: 1440px;
+}
+body .container main .pictures .mountain {
+  width: 360px;
+  height: 500px;
+  background-image: url(../img/mountain.png);
+}
+body .container main .pictures .mountain .text h4 {
+  padding: 361px 40px 0px 40px;
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 25px;
+}
+body .container main .pictures .mountain .text h5 {
+  padding: 4px 40px 16px 40px;
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+body .container main .pictures .mountain .text .line {
+  width: 280px;
+  height: 1px;
+  background-color: #fff;
+  margin: 0px 40px;
+}
+body .container main .pictures .mountain .text .story {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 280px;
+  height: 16px;
+  margin: 20px 40px 40px 40px;
+}
+body .container main .pictures .mountain .text .story p {
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+body .container main .pictures .mountain:hover {
+  transform: translateY(-25px);
+  transition: 1s;
+}
+body .container main .pictures .city {
+  width: 360px;
+  height: 500px;
+  background-image: url(../img/city.png);
+}
+body .container main .pictures .city .text h4 {
+  padding: 361px 40px 0px 40px;
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 25px;
+}
+body .container main .pictures .city .text h5 {
+  padding: 4px 40px 16px 40px;
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+body .container main .pictures .city .text .line {
+  width: 280px;
+  height: 1px;
+  background-color: #fff;
+  margin: 0px 40px;
+}
+body .container main .pictures .city .text .story {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 280px;
+  height: 16px;
+  margin: 20px 40px 40px 40px;
+}
+body .container main .pictures .city .text .story p {
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+body .container main .pictures .city:hover {
+  transform: translateY(-25px);
+  transition: 1s;
+}
+body .container main .pictures .travel {
+  width: 360px;
+  height: 500px;
+  background-image: url(../img/travel.png);
+}
+body .container main .pictures .travel .text h4 {
+  padding: 361px 40px 0px 40px;
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 25px;
+}
+body .container main .pictures .travel .text h5 {
+  padding: 4px 40px 16px 40px;
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+body .container main .pictures .travel .text .line {
+  width: 280px;
+  height: 1px;
+  background-color: #fff;
+  margin: 0px 40px;
+}
+body .container main .pictures .travel .text .story {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 280px;
+  height: 16px;
+  margin: 20px 40px 40px 40px;
+}
+body .container main .pictures .travel .text .story p {
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+body .container main .pictures .travel:hover {
+  transform: translateY(-25px);
+  transition: 1s;
+}
+body .container main .pictures .arcitect {
+  width: 360px;
+  height: 500px;
+  background-image: url(../img/tower.png);
+}
+body .container main .pictures .arcitect .text h4 {
+  padding: 361px 40px 0px 40px;
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 25px;
+}
+body .container main .pictures .arcitect .text h5 {
+  padding: 4px 40px 16px 40px;
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+body .container main .pictures .arcitect .text .line {
+  width: 280px;
+  height: 1px;
+  background-color: #fff;
+  margin: 0px 40px;
+}
+body .container main .pictures .arcitect .text .story {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 280px;
+  height: 16px;
+  margin: 20px 40px 40px 40px;
+}
+body .container main .pictures .arcitect .text .story p {
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+body .container main .pictures .arcitect:hover {
+  transform: translateY(-25px);
+  transition: 1s;
+}
+body .container main .pictures2 {
+  display: flex;
+  max-width: 1440px;
+}
+body .container main .pictures2 .world {
+  width: 360px;
+  height: 500px;
+  background-image: url("/img/stories/world.png");
+}
+body .container main .pictures2 .world .text h4 {
+  padding: 361px 40px 0px 40px;
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 25px;
+}
+body .container main .pictures2 .world .text h5 {
+  padding: 4px 40px 16px 40px;
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+body .container main .pictures2 .world .text .line {
+  width: 280px;
+  height: 1px;
+  background-color: #fff;
+  margin: 0px 40px;
+}
+body .container main .pictures2 .world .text .story {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 280px;
+  height: 16px;
+  margin: 20px 40px 40px 40px;
+}
+body .container main .pictures2 .world .text .story p {
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+body .container main .pictures2 .world:hover {
+  transform: translateY(-25px);
+  transition: 1s;
+}
+body .container main .pictures2 .unforoseen {
+  width: 360px;
+  height: 500px;
+  background-image: url(../img/stories/unforoseen.png);
+}
+body .container main .pictures2 .unforoseen .text h4 {
+  padding: 361px 40px 0px 40px;
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 25px;
+}
+body .container main .pictures2 .unforoseen .text h5 {
+  padding: 4px 40px 16px 40px;
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+body .container main .pictures2 .unforoseen .text .line {
+  width: 280px;
+  height: 1px;
+  background-color: #fff;
+  margin: 0px 40px;
+}
+body .container main .pictures2 .unforoseen .text .story {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 280px;
+  height: 16px;
+  margin: 20px 40px 40px 40px;
+}
+body .container main .pictures2 .unforoseen .text .story p {
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+body .container main .pictures2 .unforeseen:hover {
+  transform: translateY(-25px);
+  transition: 1s;
+}
+body .container main .pictures2 .lion {
+  width: 360px;
+  height: 500px;
+  background-image: url(../img/stories/lion.png);
+}
+body .container main .pictures2 .lion .text h4 {
+  padding: 361px 40px 0px 40px;
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 25px;
+}
+body .container main .pictures2 .lion .text h5 {
+  padding: 4px 40px 16px 40px;
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+body .container main .pictures2 .lion .text .line {
+  width: 280px;
+  height: 1px;
+  background-color: #fff;
+  margin: 0px 40px;
+}
+body .container main .pictures2 .lion .text .story {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 280px;
+  height: 16px;
+  margin: 20px 40px 40px 40px;
+}
+body .container main .pictures2 .lion .text .story p {
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+body .container main .pictures2 .lion:hover {
+  transform: translateY(-25px);
+  transition: 1s;
+}
+body .container main .pictures2 .trip {
+  width: 360px;
+  height: 500px;
+  background-image: url(../img/stories/trip.jpg);
+}
+body .container main .pictures2 .trip .text h4 {
+  padding: 361px 40px 0px 40px;
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 25px;
+}
+body .container main .pictures2 .trip .text h5 {
+  padding: 4px 40px 16px 40px;
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+body .container main .pictures2 .trip .text .line {
+  width: 280px;
+  height: 1px;
+  background-color: #fff;
+  margin: 0px 40px;
+}
+body .container main .pictures2 .trip .text .story {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 280px;
+  height: 16px;
+  margin: 20px 40px 40px 40px;
+}
+body .container main .pictures2 .trip .text .story p {
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+body .container main .pictures2 .trip:hover {
+  transform: translateY(-25px);
+  transition: 1s;
+}
+body .container main .pictures3 {
+  display: flex;
+  max-width: 1440px;
+}
+body .container main .pictures3 .sea {
+  width: 360px;
+  height: 500px;
+  background-image: url("/img/stories/sea.png");
+}
+body .container main .pictures3 .sea .text h4 {
+  padding: 361px 40px 0px 40px;
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 25px;
+}
+body .container main .pictures3 .sea .text h5 {
+  padding: 4px 40px 16px 40px;
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+body .container main .pictures3 .sea .text .line {
+  width: 280px;
+  height: 1px;
+  background-color: #fff;
+  margin: 0px 40px;
+}
+body .container main .pictures3 .sea .text .story {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 280px;
+  height: 16px;
+  margin: 20px 40px 40px 40px;
+}
+body .container main .pictures3 .sea .text .story p {
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+body .container main .pictures3 .sea:hover {
+  transform: translateY(-25px);
+  transition: 1s;
+}
+body .container main .pictures3 .horse {
+  width: 360px;
+  height: 500px;
+  background-image: url(../img/stories/horse.png);
+}
+body .container main .pictures3 .horse .text h4 {
+  padding: 361px 40px 0px 40px;
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 25px;
+}
+body .container main .pictures3 .horse .text h5 {
+  padding: 4px 40px 16px 40px;
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+body .container main .pictures3 .horse .text .line {
+  width: 280px;
+  height: 1px;
+  background-color: #fff;
+  margin: 0px 40px;
+}
+body .container main .pictures3 .horse .text .story {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 280px;
+  height: 16px;
+  margin: 20px 40px 40px 40px;
+}
+body .container main .pictures3 .horse .text .story p {
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+body .container main .pictures3 .horse:hover {
+  transform: translateY(-25px);
+  transition: 1s;
+}
+body .container main .pictures3 .waves {
+  width: 360px;
+  height: 500px;
+  background-image: url(../img/stories/waves.png);
+}
+body .container main .pictures3 .waves .text h4 {
+  padding: 361px 40px 0px 40px;
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 25px;
+}
+body .container main .pictures3 .waves .text h5 {
+  padding: 4px 40px 16px 40px;
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+body .container main .pictures3 .waves .text .line {
+  width: 280px;
+  height: 1px;
+  background-color: #fff;
+  margin: 0px 40px;
+}
+body .container main .pictures3 .waves .text .story {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 280px;
+  height: 16px;
+  margin: 20px 40px 40px 40px;
+}
+body .container main .pictures3 .waves .text .story p {
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+body .container main .pictures3 .waves:hover {
+  transform: translateY(-25px);
+  transition: 1s;
+}
+body .container main .pictures3 .calm {
+  width: 360px;
+  height: 500px;
+  background-image: url(../img/stories/calm.png);
+}
+body .container main .pictures3 .calm .text h4 {
+  padding: 361px 40px 0px 40px;
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 25px;
+}
+body .container main .pictures3 .calm .text h5 {
+  padding: 4px 40px 16px 40px;
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+body .container main .pictures3 .calm .text .line {
+  width: 280px;
+  height: 1px;
+  background-color: #fff;
+  margin: 0px 40px;
+}
+body .container main .pictures3 .calm .text .story {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 280px;
+  height: 16px;
+  margin: 20px 40px 40px 40px;
+}
+body .container main .pictures3 .calm .text .story p {
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+body .container main .pictures3 .calm:hover {
+  transform: translateY(-25px);
+  transition: 1s;
+}
+body .container main .pictures4 {
+  display: flex;
+  max-width: 1440px;
+}
+body .container main .pictures4 .universe {
+  width: 360px;
+  height: 500px;
+  background-image: url("/img/stories/universe.png");
+}
+body .container main .pictures4 .universe .text h4 {
+  padding: 361px 40px 0px 40px;
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 25px;
+}
+body .container main .pictures4 .universe .text h5 {
+  padding: 4px 40px 16px 40px;
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+body .container main .pictures4 .universe .text .line {
+  width: 280px;
+  height: 1px;
+  background-color: #fff;
+  margin: 0px 40px;
+}
+body .container main .pictures4 .universe .text .story {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 280px;
+  height: 16px;
+  margin: 20px 40px 40px 40px;
+}
+body .container main .pictures4 .universe .text .story p {
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+body .container main .pictures4 .universe:hover {
+  transform: translateY(-25px);
+  transition: 1s;
+}
+body .container main .pictures4 .forest {
+  width: 360px;
+  height: 500px;
+  background-image: url(../img/stories/forest.png);
+}
+body .container main .pictures4 .forest .text h4 {
+  padding: 361px 40px 0px 40px;
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 25px;
+}
+body .container main .pictures4 .forest .text h5 {
+  padding: 4px 40px 16px 40px;
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+body .container main .pictures4 .forest .text .line {
+  width: 280px;
+  height: 1px;
+  background-color: #fff;
+  margin: 0px 40px;
+}
+body .container main .pictures4 .forest .text .story {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 280px;
+  height: 16px;
+  margin: 20px 40px 40px 40px;
+}
+body .container main .pictures4 .forest .text .story p {
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+body .container main .pictures4 .forest:hover {
+  transform: translateY(-25px);
+  transition: 1s;
+}
+body .container main .pictures4 .beauty {
+  width: 360px;
+  height: 500px;
+  background-image: url(../img/stories/Beauty.png);
+}
+body .container main .pictures4 .beauty .text h4 {
+  padding: 361px 40px 0px 40px;
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 25px;
+}
+body .container main .pictures4 .beauty .text h5 {
+  padding: 4px 40px 16px 40px;
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+body .container main .pictures4 .beauty .text .line {
+  width: 280px;
+  height: 1px;
+  background-color: #fff;
+  margin: 0px 40px;
+}
+body .container main .pictures4 .beauty .text .story {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 280px;
+  height: 16px;
+  margin: 20px 40px 40px 40px;
+}
+body .container main .pictures4 .beauty .text .story p {
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+body .container main .pictures4 .beauty:hover {
+  transform: translateY(-25px);
+  transition: 1s;
+}
+body .container main .pictures4 .dream {
+  width: 360px;
+  height: 500px;
+  background-image: url(../img/stories/dreams.png);
+}
+body .container main .pictures4 .dream .text h4 {
+  padding: 361px 40px 0px 40px;
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 25px;
+}
+body .container main .pictures4 .dream .text h5 {
+  padding: 4px 40px 16px 40px;
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+body .container main .pictures4 .dream .text .line {
+  width: 280px;
+  height: 1px;
+  background-color: #fff;
+  margin: 0px 40px;
+}
+body .container main .pictures4 .dream .text .story {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 280px;
+  height: 16px;
+  margin: 20px 40px 40px 40px;
+}
+body .container main .pictures4 .dream .text .story p {
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+body .container main .pictures4 .dream:hover {
+  transform: translateY(-25px);
+  transition: 1s;
+}
+body .container footer {
+  width: 100%;
+  background-color: #000;
+}
+body .container footer .footer {
+  display: flex;
+  max-width: 1440px;
+  background-color: #000;
+  padding: 64px 165px 64px 171px;
+}
+body .container footer .footer .icons {
+  display: flex;
+  flex-direction: column;
+  margin-left: 119px;
+}
+body .container footer .footer .icons img {
+  width: 170px;
+}
+body .container footer .footer .icons .symbols {
+  display: flex;
+  gap: 15px;
+  width: 154px;
+  height: 20px;
+  padding-top: 85px;
+}
+body .container footer .footer .icons .symbols svg {
+  cursor: pointer;
+}
+body .container footer .footer .icons .symbols .facebook:hover path {
+  fill: #6028F1;
+}
+body .container footer .footer .icons .symbols .youtube:hover path {
+  fill: red;
+}
+body .container footer .footer .icons .symbols .twitter:hover path {
+  fill: #63AFDB;
+}
+body .container footer .footer .icons .symbols .prin:hover path {
+  fill: #e29654;
+}
+body .container footer .footer .icons .symbols .insta:hover path {
+  fill: linear-gradient(#FFC593, #BC7198, #5A77FF);
+}
+body .container footer .footer .menu ul {
+  display: flex;
+  flex-direction: column;
+  gap: 19px;
+  padding-left: 119px;
+}
+body .container footer .footer .menu ul li {
+  list-style: none;
+}
+body .container footer .footer .menu ul li a {
+  text-decoration: none;
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+body .container footer .footer .menu ul li a:hover {
+  opacity: 0.3;
+}
+body .container footer .footer .end {
+  display: flex;
+  flex-direction: column;
+}
+body .container footer .footer .end .invite {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  padding-top: 48px;
+  margin-right: 215px;
+}
+body .container footer .footer .end .invite a {
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-decoration: none;
+}
+body .container footer .footer .end .invite a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+body .container footer .footer .end p {
+  padding-top: 109px;
+  color: #FFF;
+  text-align: right;
+  font-family: DM Sans;
+  font-size: 15px;
+  font-weight: 400;
+  opacity: 0.5025;
+}
+
+@media (max-width: 800px) {
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  body .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 1440px;
+  }
+  body .container header {
+    padding: 28px 165px 28px 165px;
+    display: flex;
+    align-items: center;
+    max-width: 800px;
+    height: 72px;
+    background-color: #fff;
+  }
+  body .container header nav {
+    display: none;
+  }
+  body .container header nav ul {
+    display: flex;
+    list-style-type: none;
+    gap: 37px;
+  }
+  body .container header nav ul a {
+    text-decoration: none;
+    color: #000;
+    font-family: DM Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 2px;
+  }
+  body .container header nav ul a:hover {
+    opacity: 0.3;
+  }
+  body .container header button {
+    width: 158px;
+    height: 40px;
+    background: #000;
+    border: none;
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 2px;
+  }
+  body .container header button:hover {
+    background: #DFDFDF;
+    color: #000;
+  }
+  body .container main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  body .container main .create {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: none;
+    background-repeat: no-repeat;
+  }
+  body .container main .create .moon-mobile {
+    display: block;
+  }
+  body .container main .create .text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    padding-left: 52px;
+    background: black;
+    max-width: 375px;
+    height: 450px;
+  }
+  body .container main .create .text h1 {
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 2px;
+  }
+  body .container main .create .text h2 {
+    width: 287px;
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 4.167px;
+    text-transform: uppercase;
+  }
+  body .container main .create .text h3 {
+    opacity: 0.6;
+    width: 387px;
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 13px;
+    font-weight: 400;
+    gap: 9px;
+  }
+  body .container main .create .text h3 span {
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 13px;
+    font-weight: 400;
+  }
+  body .container main .create .text .read {
+    display: flex;
+    padding-left: 2px;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    margin-left: -120px;
+  }
+  body .container main .create .text .read a {
+    opacity: 1;
+    text-decoration: none;
+    color: #FFF;
+    text-align: right;
+    font-family: DM Sans;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 2px;
+  }
+  body .container main .create .text .read a:hover {
+    text-decoration: underline;
+  }
+  body .container main .pictures {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    max-width: 800px;
+  }
+  body .container main .pictures .mountain {
+    width: 360px;
+    height: 500px;
+    background-image: url(../img/mountain.png);
+  }
+  body .container main .pictures .mountain .text h4 {
+    padding: 361px 40px 0px 40px;
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 25px;
+  }
+  body .container main .pictures .mountain .text h5 {
+    padding: 4px 40px 16px 40px;
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  body .container main .pictures .mountain .text .line {
+    width: 280px;
+    height: 1px;
+    background-color: #fff;
+    margin: 0px 40px;
+  }
+  body .container main .pictures .mountain .text .story {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 280px;
+    height: 16px;
+    margin: 20px 40px 40px 40px;
+  }
+  body .container main .pictures .mountain .text .story p {
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 2px;
+  }
+  body .container main .pictures .mountain:hover {
+    transform: translateY(-25px);
+    transition: 1s;
+  }
+  body .container main .pictures .city {
+    width: 360px;
+    height: 500px;
+    background-image: url(../img/city.png);
+  }
+  body .container main .pictures .city .text h4 {
+    padding: 361px 40px 0px 40px;
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 25px;
+  }
+  body .container main .pictures .city .text h5 {
+    padding: 4px 40px 16px 40px;
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  body .container main .pictures .city .text .line {
+    width: 280px;
+    height: 1px;
+    background-color: #fff;
+    margin: 0px 40px;
+  }
+  body .container main .pictures .city .text .story {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 280px;
+    height: 16px;
+    margin: 20px 40px 40px 40px;
+  }
+  body .container main .pictures .city .text .story p {
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 2px;
+  }
+  body .container main .pictures .city:hover {
+    transform: translateY(-25px);
+    transition: 1s;
+  }
+  body .container main .pictures .travel {
+    width: 360px;
+    height: 500px;
+    background-image: url(../img/travel.png);
+  }
+  body .container main .pictures .travel .text h4 {
+    padding: 361px 40px 0px 40px;
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 25px;
+  }
+  body .container main .pictures .travel .text h5 {
+    padding: 4px 40px 16px 40px;
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  body .container main .pictures .travel .text .line {
+    width: 280px;
+    height: 1px;
+    background-color: #fff;
+    margin: 0px 40px;
+  }
+  body .container main .pictures .travel .text .story {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 280px;
+    height: 16px;
+    margin: 20px 40px 40px 40px;
+  }
+  body .container main .pictures .travel .text .story p {
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 2px;
+  }
+  body .container main .pictures .travel:hover {
+    transform: translateY(-25px);
+    transition: 1s;
+  }
+  body .container main .pictures .arcitect {
+    width: 360px;
+    height: 500px;
+    background-image: url(../img/tower.png);
+  }
+  body .container main .pictures .arcitect .text h4 {
+    padding: 361px 40px 0px 40px;
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 25px;
+  }
+  body .container main .pictures .arcitect .text h5 {
+    padding: 4px 40px 16px 40px;
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  body .container main .pictures .arcitect .text .line {
+    width: 280px;
+    height: 1px;
+    background-color: #fff;
+    margin: 0px 40px;
+  }
+  body .container main .pictures .arcitect .text .story {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 280px;
+    height: 16px;
+    margin: 20px 40px 40px 40px;
+  }
+  body .container main .pictures .arcitect .text .story p {
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 2px;
+  }
+  body .container main .pictures .arcitect:hover {
+    transform: translateY(-25px);
+    transition: 1s;
+  }
+  body .container main .pictures2 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 1440px;
+  }
+  body .container main .pictures2 .world {
+    width: 360px;
+    height: 500px;
+    background-image: url("/img/stories/world.png");
+  }
+  body .container main .pictures2 .world .text h4 {
+    padding: 361px 40px 0px 40px;
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 25px;
+  }
+  body .container main .pictures2 .world .text h5 {
+    padding: 4px 40px 16px 40px;
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  body .container main .pictures2 .world .text .line {
+    width: 280px;
+    height: 1px;
+    background-color: #fff;
+    margin: 0px 40px;
+  }
+  body .container main .pictures2 .world .text .story {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 280px;
+    height: 16px;
+    margin: 20px 40px 40px 40px;
+  }
+  body .container main .pictures2 .world .text .story p {
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 2px;
+  }
+  body .container main .pictures2 .world:hover {
+    transform: translateY(-25px);
+    transition: 1s;
+  }
+  body .container main .pictures2 .unforoseen {
+    width: 360px;
+    height: 500px;
+    background-image: url(../img/stories/unforoseen.png);
+  }
+  body .container main .pictures2 .unforoseen .text h4 {
+    padding: 361px 40px 0px 40px;
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 25px;
+  }
+  body .container main .pictures2 .unforoseen .text h5 {
+    padding: 4px 40px 16px 40px;
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  body .container main .pictures2 .unforoseen .text .line {
+    width: 280px;
+    height: 1px;
+    background-color: #fff;
+    margin: 0px 40px;
+  }
+  body .container main .pictures2 .unforoseen .text .story {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 280px;
+    height: 16px;
+    margin: 20px 40px 40px 40px;
+  }
+  body .container main .pictures2 .unforoseen .text .story p {
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 2px;
+  }
+  body .container main .pictures2 .unforeseen:hover {
+    transform: translateY(-25px);
+    transition: 1s;
+  }
+  body .container main .pictures2 .lion {
+    width: 360px;
+    height: 500px;
+    background-image: url(../img/stories/lion.png);
+  }
+  body .container main .pictures2 .lion .text h4 {
+    padding: 361px 40px 0px 40px;
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 25px;
+  }
+  body .container main .pictures2 .lion .text h5 {
+    padding: 4px 40px 16px 40px;
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  body .container main .pictures2 .lion .text .line {
+    width: 280px;
+    height: 1px;
+    background-color: #fff;
+    margin: 0px 40px;
+  }
+  body .container main .pictures2 .lion .text .story {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 280px;
+    height: 16px;
+    margin: 20px 40px 40px 40px;
+  }
+  body .container main .pictures2 .lion .text .story p {
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 2px;
+  }
+  body .container main .pictures2 .lion:hover {
+    transform: translateY(-25px);
+    transition: 1s;
+  }
+  body .container main .pictures2 .trip {
+    width: 360px;
+    height: 500px;
+    background-image: url(../img/stories/trip.jpg);
+  }
+  body .container main .pictures2 .trip .text h4 {
+    padding: 361px 40px 0px 40px;
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 25px;
+  }
+  body .container main .pictures2 .trip .text h5 {
+    padding: 4px 40px 16px 40px;
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  body .container main .pictures2 .trip .text .line {
+    width: 280px;
+    height: 1px;
+    background-color: #fff;
+    margin: 0px 40px;
+  }
+  body .container main .pictures2 .trip .text .story {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 280px;
+    height: 16px;
+    margin: 20px 40px 40px 40px;
+  }
+  body .container main .pictures2 .trip .text .story p {
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 2px;
+  }
+  body .container main .pictures2 .trip:hover {
+    transform: translateY(-25px);
+    transition: 1s;
+  }
+  body .container main .pictures3 {
+    display: flex;
+    flex-direction: column;
+    max-width: 1440px;
+  }
+  body .container main .pictures3 .sea {
+    width: 360px;
+    height: 500px;
+    background-image: url("/img/stories/sea.png");
+  }
+  body .container main .pictures3 .sea .text h4 {
+    padding: 361px 40px 0px 40px;
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 25px;
+  }
+  body .container main .pictures3 .sea .text h5 {
+    padding: 4px 40px 16px 40px;
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  body .container main .pictures3 .sea .text .line {
+    width: 280px;
+    height: 1px;
+    background-color: #fff;
+    margin: 0px 40px;
+  }
+  body .container main .pictures3 .sea .text .story {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 280px;
+    height: 16px;
+    margin: 20px 40px 40px 40px;
+  }
+  body .container main .pictures3 .sea .text .story p {
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 2px;
+  }
+  body .container main .pictures3 .sea:hover {
+    transform: translateY(-25px);
+    transition: 1s;
+  }
+  body .container main .pictures3 .horse {
+    width: 360px;
+    height: 500px;
+    background-image: url(../img/stories/horse.png);
+  }
+  body .container main .pictures3 .horse .text h4 {
+    padding: 361px 40px 0px 40px;
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 25px;
+  }
+  body .container main .pictures3 .horse .text h5 {
+    padding: 4px 40px 16px 40px;
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  body .container main .pictures3 .horse .text .line {
+    width: 280px;
+    height: 1px;
+    background-color: #fff;
+    margin: 0px 40px;
+  }
+  body .container main .pictures3 .horse .text .story {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 280px;
+    height: 16px;
+    margin: 20px 40px 40px 40px;
+  }
+  body .container main .pictures3 .horse .text .story p {
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 2px;
+  }
+  body .container main .pictures3 .horse:hover {
+    transform: translateY(-25px);
+    transition: 1s;
+  }
+  body .container main .pictures3 .waves {
+    width: 360px;
+    height: 500px;
+    background-image: url(../img/stories/waves.png);
+  }
+  body .container main .pictures3 .waves .text h4 {
+    padding: 361px 40px 0px 40px;
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 25px;
+  }
+  body .container main .pictures3 .waves .text h5 {
+    padding: 4px 40px 16px 40px;
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  body .container main .pictures3 .waves .text .line {
+    width: 280px;
+    height: 1px;
+    background-color: #fff;
+    margin: 0px 40px;
+  }
+  body .container main .pictures3 .waves .text .story {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 280px;
+    height: 16px;
+    margin: 20px 40px 40px 40px;
+  }
+  body .container main .pictures3 .waves .text .story p {
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 2px;
+  }
+  body .container main .pictures3 .waves:hover {
+    transform: translateY(-25px);
+    transition: 1s;
+  }
+  body .container main .pictures3 .calm {
+    width: 360px;
+    height: 500px;
+    background-image: url(../img/stories/calm.png);
+  }
+  body .container main .pictures3 .calm .text h4 {
+    padding: 361px 40px 0px 40px;
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 25px;
+  }
+  body .container main .pictures3 .calm .text h5 {
+    padding: 4px 40px 16px 40px;
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  body .container main .pictures3 .calm .text .line {
+    width: 280px;
+    height: 1px;
+    background-color: #fff;
+    margin: 0px 40px;
+  }
+  body .container main .pictures3 .calm .text .story {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 280px;
+    height: 16px;
+    margin: 20px 40px 40px 40px;
+  }
+  body .container main .pictures3 .calm .text .story p {
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 2px;
+  }
+  body .container main .pictures3 .calm:hover {
+    transform: translateY(-25px);
+    transition: 1s;
+  }
+  body .container main .pictures4 {
+    display: flex;
+    flex-direction: column;
+    max-width: 1440px;
+  }
+  body .container main .pictures4 .universe {
+    width: 360px;
+    height: 500px;
+    background-image: url("/img/stories/universe.png");
+  }
+  body .container main .pictures4 .universe .text h4 {
+    padding: 361px 40px 0px 40px;
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 25px;
+  }
+  body .container main .pictures4 .universe .text h5 {
+    padding: 4px 40px 16px 40px;
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  body .container main .pictures4 .universe .text .line {
+    width: 280px;
+    height: 1px;
+    background-color: #fff;
+    margin: 0px 40px;
+  }
+  body .container main .pictures4 .universe .text .story {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 280px;
+    height: 16px;
+    margin: 20px 40px 40px 40px;
+  }
+  body .container main .pictures4 .universe .text .story p {
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 2px;
+  }
+  body .container main .pictures4 .universe:hover {
+    transform: translateY(-25px);
+    transition: 1s;
+  }
+  body .container main .pictures4 .forest {
+    width: 360px;
+    height: 500px;
+    background-image: url(../img/stories/forest.png);
+  }
+  body .container main .pictures4 .forest .text h4 {
+    padding: 361px 40px 0px 40px;
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 25px;
+  }
+  body .container main .pictures4 .forest .text h5 {
+    padding: 4px 40px 16px 40px;
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  body .container main .pictures4 .forest .text .line {
+    width: 280px;
+    height: 1px;
+    background-color: #fff;
+    margin: 0px 40px;
+  }
+  body .container main .pictures4 .forest .text .story {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 280px;
+    height: 16px;
+    margin: 20px 40px 40px 40px;
+  }
+  body .container main .pictures4 .forest .text .story p {
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 2px;
+  }
+  body .container main .pictures4 .forest:hover {
+    transform: translateY(-25px);
+    transition: 1s;
+  }
+  body .container main .pictures4 .beauty {
+    width: 360px;
+    height: 500px;
+    background-image: url(../img/stories/Beauty.png);
+  }
+  body .container main .pictures4 .beauty .text h4 {
+    padding: 361px 40px 0px 40px;
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 25px;
+  }
+  body .container main .pictures4 .beauty .text h5 {
+    padding: 4px 40px 16px 40px;
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  body .container main .pictures4 .beauty .text .line {
+    width: 280px;
+    height: 1px;
+    background-color: #fff;
+    margin: 0px 40px;
+  }
+  body .container main .pictures4 .beauty .text .story {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 280px;
+    height: 16px;
+    margin: 20px 40px 40px 40px;
+  }
+  body .container main .pictures4 .beauty .text .story p {
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 2px;
+  }
+  body .container main .pictures4 .beauty:hover {
+    transform: translateY(-25px);
+    transition: 1s;
+  }
+  body .container main .pictures4 .dream {
+    width: 360px;
+    height: 500px;
+    background-image: url(../img/stories/dreams.png);
+  }
+  body .container main .pictures4 .dream .text h4 {
+    padding: 361px 40px 0px 40px;
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 25px;
+  }
+  body .container main .pictures4 .dream .text h5 {
+    padding: 4px 40px 16px 40px;
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  body .container main .pictures4 .dream .text .line {
+    width: 280px;
+    height: 1px;
+    background-color: #fff;
+    margin: 0px 40px;
+  }
+  body .container main .pictures4 .dream .text .story {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 280px;
+    height: 16px;
+    margin: 20px 40px 40px 40px;
+  }
+  body .container main .pictures4 .dream .text .story p {
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 2px;
+  }
+  body .container main .pictures4 .dream:hover {
+    transform: translateY(-25px);
+    transition: 1s;
+  }
+  body .container footer {
+    width: 100%;
+    background-color: #000;
+  }
+  body .container footer .footer {
+    display: flex;
+    flex-direction: column;
+    background-color: #000;
+    padding: 64px 165px 64px 171px;
+  }
+  body .container footer .footer .icons {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+  }
+  body .container footer .footer .icons img {
+    width: 170px;
+  }
+  body .container footer .footer .icons .symbols {
+    display: flex;
+    gap: 15px;
+    width: 154px;
+    height: 20px;
+    padding-top: 0px;
+  }
+  body .container footer .footer .menu ul {
+    display: flex;
+    flex-direction: column;
+    gap: 19px;
+    padding-left: 119px;
+  }
+  body .container footer .footer .menu ul li {
+    list-style: none;
+  }
+  body .container footer .footer .menu ul li a {
+    text-decoration: none;
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+  body .container footer .footer .menu ul li a:hover {
+    opacity: 0.3;
+  }
+  body .container footer .footer .end {
+    display: flex;
+    flex-direction: column;
+  }
+  body .container footer .footer .end .invite {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    padding-top: 48px;
+    margin-right: 215px;
+  }
+  body .container footer .footer .end .invite a {
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-decoration: none;
+  }
+  body .container footer .footer .end .invite a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  body .container footer .footer .end p {
+    padding-top: 109px;
+    color: #FFF;
+    text-align: right;
+    font-family: DM Sans;
+    font-size: 15px;
+    font-weight: 400;
+    opacity: 0.5025;
+  }
+}/*# sourceMappingURL=stories.css.map */
